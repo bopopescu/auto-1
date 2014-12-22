@@ -1,0 +1,8 @@
+#!/bin/sh
+node_av=~/node_av_all
+exec 3<>~/node_av_all
+while read node <&3;do
+    rsh $node 
+
+done
+

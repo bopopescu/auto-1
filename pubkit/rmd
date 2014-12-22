@@ -1,0 +1,6 @@
+#!/usr/bin/Rscript
+
+
+files=dir(pattern="*.Rmd")
+library(knitr)
+for (i in files)knit(i)

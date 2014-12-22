@@ -1,0 +1,6 @@
+#!/bin/sh
+person=4000
+
+while read line;do
+echo "scale=6;2- now/$person"
+done

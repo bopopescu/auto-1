@@ -1,0 +1,17 @@
+while [ 1 -gt 0 ]
+do
+  cp /public/huibin/gussian_usrs /public/adhu/
+  cp /public/huibin/gussian_usrs /public/rory/
+  cp /public/huibin/gussian_usrs /public/yangky/
+  cp /public/huibin/gussian_usrs /public/zhqwu/
+  cp /public/huibin/gussian_usrs /public/chenxin/
+  cp /public/huibin/gussian_usrs /public/pangrui/
+  cp /public/huibin/gussian_usrs /public/wangch/ 
+  cp /public/huibin/gussian_usrs /public/xxuee/
+  cp /public/huibin/gussian_usrs /public/liusha/
+  cp /public/huibin/gussian_usrs ~/
+  cp /public/huibin/gussian_usrs /public/wangjing/
+
+  sleep 1800
+done
+

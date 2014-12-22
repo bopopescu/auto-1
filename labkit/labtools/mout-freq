@@ -1,0 +1,17 @@
+#
+for gout in `cat $1`
+do
+gtxt=${gout%.*}.txt
+gchk=${gout%.*}.chk
+echo "%mem=900MB">$gtxt
+echo "%rwf=1,245MW,2,245MW,3,245MW,4,245MW">>$gtxt
+echo "%NoSave">>$gtxt
+echo "%chk=$gchk">>$gtxt
+echo "#BHandHLYP/6-31G* freq">>$gtxt
+echo >>$gtxt
+echo "generate by mout-freq">>$gtxt
+echo >>$gtxt
+echo "0 1">>$gtxt
+getxyz $gout>>$gtxt
+echo >>$gtxt
+done

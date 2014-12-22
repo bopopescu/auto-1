@@ -1,0 +1,7 @@
+#
+
+for gout in `cat $1`
+do
+  outinfo $gout
+done
+

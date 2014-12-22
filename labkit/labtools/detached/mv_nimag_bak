@@ -1,0 +1,9 @@
+#!/bin/sh
+mkdir NImag
+ls |grep out |while read i; do 
+j=`cat $i|grep -e  'NImag=($ )?[^0]'|wc -l`;  
+	if [ $j == 1 ];then 
+		mv $i NImag;
+		mv ${i%out}chk  NImag
+	fi;
+done

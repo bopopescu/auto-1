@@ -1,0 +1,113 @@
+#!/bin/sh
+# pm3 opt ONE Gaussian input file
+# $1: input file of pm3 opt
+# working.txt  working.out :working temp file
+# ${$1%.*}.out  correct outfile
+
+exec 2>/dev/null
+exec 1>/dev/null
+
+if [ ! -s $1 ] ;then exit;fi
+localpash=`pwd`
+cd
+#source .g03
+cd $localpash
+
+inputfile=$1
+file=${inputfile%.*}
+workingfile=${file}_$$
+cp $inputfile ${workingfile}.txt
+outputfile=${file}.out
+
+
+exit_handler(){
+
+  #	ps ufx
+  self=$!
+  #	echo $self self
+  child=`pid_tree.py $$`
+  mv $inputfile ${file}.err
+  rm ${workingfile}.txt
+  rm ${workingfile}.out
+  echo $child
+  for i in $child; do
+    if [ $i != $self ]; then
+      echo killing $i
+      kill -15 $i
+      kill -9 $i
+      rm Gau*$i*
+    fi
+  done
+
+  echo $workingfile	
+  #      	mv $inputfile ${file}.err
+  #	rm ${workingfile}.txt
+  #        rm ${workingfile}.out
+  exit 0
+}
+trap exit_handler SIGINT SIGTERM SIGQUIT  
+# if [ `grep -c pm3 $inputfile` -gt 0 ]
+# then
+#     sleep 300 
+#     gpid=`ps x|grep ${workingfile}.txt|grep -v grep|awk '{print $1}'`
+#     father=`ps -ef |grep $gpid|grep -v grep|awk '{print $3}'`
+#     m.nodekill  $father
+#     rm G*$gpid*
+#     mv $inputfile ${file}.err
+
+#     exit
+# fi&
+
+#if [ `grep -c pm3 $inputfile` -gt 0 ]
+#then
+#overtime_pm3& 
+#fi
+#overtime_pm3&
+Normal=0
+times=0
+if [ `grep -c pm3 $inputfile` -gt 0 ]
+then
+  sleep 1000 
+  #		echo $! hahahah 
+  #		echo i am killing $$
+  #kill -15 $$
+  exit_handler
+  #         killid=`ps xeo "%p %P %c"|grep g09|awk "\$2==\"$$\" {print \$1}"`
+  #	for j in $killid ;do 
+  #		echo $j
+  #		m.nodekill $j
+  #		rm Gau*$j*
+  #	done
+fi&
+
+until [ $Normal -gt 0 -o $times -gt 0 ]
+do
+  g09 ${workingfile}.txt ${workingfile}.out
+  Normal=`tail ${workingfile}.out|grep -c "Normal"`
+  if [ $Normal -gt 0 ]
+  then
+    mv ${workingfile}.out $outputfile
+    rm ${workingfile}.txt
+    if [ `grep -c chk $inputfile` -ne 0 ]
+    then
+      echo	
+    else
+      outinfo "$outputfile"
+    fi
+    rm $inputfile
+
+  else
+    recompute "${workingfile}.out" 2>/dev/null
+  fi
+  times=`expr $times + 1`
+done
+
+
+
+if [ $Normal -eq 0 ] ;then
+  mv $inputfile ${file}.err
+  rm ${workingfile}.txt
+  rm ${workingfile}.out
+fi
+
+##

@@ -1,0 +1,12 @@
+# translate the outfile to xyzfile
+
+s=`grep -n "Standard orientation" $1|tail -1|cut -d: -f1`
+r=`grep -n "Rotational constants" $1|tail -1|cut -d: -f1`
+size=$((r-s-6))
+gout=$1
+gxyz=${gout%.*}.xyz
+
+echo $size>$gxyz
+echo "Generate by out-xyz">>$gxyz
+getxyz $gout>>$gxyz
+

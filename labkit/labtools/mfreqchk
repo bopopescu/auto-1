@@ -1,0 +1,43 @@
+#!/usr/bin/env ruby
+require "json"
+require "pp"
+require "#{File.dirname(__FILE__)}/load_config.rb"
+molecular_name=ARGV.first
+`mv_nimag`
+config_file_name="mfreqchk.json"
+config_file=load_config(config_file_name)
+if config_file
+	parameters=JSON.parse(File.read(config_file))
+	filelist=File.read(parameters["filelist"])
+	temperature=parameters["temperature"]
+	factor=parameters["factor"]
+else
+	
+	puts "#{$st} #{config_file_name} not found, use the default parameters #{$en}"
+	filelist=`ls *.chk`
+	if filelist==""
+		puts "#{$st}no chk file#{$en}" ;exit 0 
+	end
+	temperature=[98.0,198.0,298.0]
+	factor=0.926
+end
+filelist=`ls *.chk`
+temperature.each do |temp|
+	outputfile=File.new("c#{temp.to_i}K_#{molecular_name}.csv",'w')
+	# outputfile.puts "Temperature: "+temp.to_s+"K\t"+"Factor: "+factor.to_s
+	outputfile.puts "Conformer,\tZPEn_cor,\tEnergy_cor,\tEnthalpy_cor,\tGibbs_cor"
+	filelist.each_line do | chkfile |
+		chkfile=chkfile.chomp
+		message=`freqchk #{chkfile} n #{temp} 1.0 #{factor}  y`
+		# puts message
+		m= /Zero-point correction= *(\d*\.\d*).*\n.*Thermal correction to Energy= *(\d*\.\d*).*\n.*Thermal correction to Enthalpy= *(\d*\.\d*).*\n.*Thermal correction to Gibbs Free Energy= *(\d*\.\d*).*/.match(message)
+		# m= /Zero-point correction= *(\d*\.\d*).*Thermal correction to Energy= *(\d*\.\d*).*/.match(message)
+		# puts m
+		chkfile=chkfile.gsub(/\.chk/,'')
+		outputfile.puts "#{chkfile},\t#{m[1]},\t#{m[2]},\t#{m[3]},\t#{m[4]}"
+	end
+end
+
+#print filelistname
+#freqchk
+

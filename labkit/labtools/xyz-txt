@@ -1,0 +1,23 @@
+# translate the xyzfile to Gaussian input file
+# $1 xyzfile   $2: headwords of input file
+
+gxyz=$1
+gtxt=${gxyz%.*}.txt
+
+if [ $# == 1 ]
+then
+    cat `getbinpath`/../etc/headfile_xyz-txt>$gtxt
+else if [ $# == 2 ]
+then
+    cat $2>$gtxt
+else
+    echo "Error input!"
+    exit
+fi
+fi
+
+t=`wc -l $1|awk '{print $1}'`
+t=$((t-2))
+tail -$t $1>>$gtxt
+echo >>$gtxt
+echo >>$gtxt

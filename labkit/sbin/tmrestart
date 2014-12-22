@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo service avahi-daemon restart
+sudo service messagebus restart
+sudo service netatalk restart 

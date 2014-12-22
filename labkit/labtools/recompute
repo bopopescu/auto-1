@@ -1,0 +1,36 @@
+#!/bin/sh
+# translate the outfile to input file with the same method
+# $1 the outfile
+
+gout=$1
+gtxt=${gout%.*}.txt
+lines=`wc -l $1|cut -d" " -f1`
+line0=`grep -n -e "Gaussian 03:" $1|head -1|cut -d: -f1`
+if [ $((lines-line0)) -ge 100 ]
+then
+    grep -100 "Gaussian 03:" $1|tail -98>.recompute_temp$1
+else
+    tail -$((lines-line0-2)) $1>.recompute_temp$1
+fi
+
+line1=`grep -n -e "#" .recompute_temp$1|head -1|cut -d: -f1`
+line2=`grep -n -e "Symbolic Z-matr" .recompute_temp$1|head -2|tail -1|cut -d: -f1`
+
+if [ $line1 -gt 1 ]
+then
+    head -$((line1-2)) .recompute_temp$1 > $gtxt
+    head -$line1 .recompute_temp$1|tail -1>> $gtxt
+else
+    head -$((line1+1)) .recompute_temp$1|tail -1> $gtxt
+fi
+echo >>$gtxt
+head -$((line2-2)) .recompute_temp$1|tail -1>> $gtxt
+echo >>$gtxt
+awk '/Multiplicity/ {printf("%d  %d\n",$3,$6);}' .recompute_temp$1 >>$gtxt
+getxyz $gout>>$gtxt
+echo >>$gtxt
+echo >>$gtxt
+rm .recompute_temp$1
+
+
+

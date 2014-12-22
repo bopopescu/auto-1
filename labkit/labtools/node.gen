@@ -1,0 +1,2 @@
+#!/bin/sh
+awk '{if ($2==0) print $1}' ~/node_available >~/node_av

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ $# != 1 ]; then echo "input 1 argument for qname and this script will qdel all tasks from it" ;exit 0;fi
+
+
+qstat|grep $1|cut -d' ' -f1|cut -d'.' -f1|xargs qdel
+

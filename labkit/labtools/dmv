@@ -1,0 +1,29 @@
+#
+allfiles=`wc -l $1|cut -d" " -f1`
+nstep=$2
+step=$((allfiles/nstep))
+allfiles2=$((step*nstep))
+if [ $allfiles2 -lt $allfiles ]
+then
+    step=$((step+1))
+fi
+
+n=1
+
+while [ $n -lt $nstep ]
+do
+echo "step $n out of $nstep"
+head -$((n*step)) $1|tail -$step>_list
+mmv _list $3"$n"
+mv _list  $3"$n"/list
+
+n=$((n+1))
+done
+
+echo "step $n out of $nstep"
+step=$((allfiles-n*step+step))
+tail -$step $1>_list
+mmv _list $3"$n"
+mv _list $3"$n"/list
+
+

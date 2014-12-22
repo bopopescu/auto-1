@@ -1,0 +1,28 @@
+#!/usr/bin/python
+import sys
+import os
+if not (os.path.isfile('unique_list.txt')):exit
+uniquefile=open('unique_list.txt')
+lines=[]
+lines.append(uniquefile.readline().split())
+zenergy=float(lines[0][1])
+
+energyscope=float(sys.argv[1])
+
+while True:
+      line=uniquefile.readline().split()
+      if not line:break
+      lines.append(line)
+
+
+      if 627.509469*(float(lines[-1][1])-zenergy) > energyscope:break
+uniquefile.close()
+uniquefilenext=open('unique_list_next.txt','w')
+
+for i in range(len(lines)):
+      lines[i]='\t'.join(lines[i])+'\n'
+
+uniquefilenext.writelines(lines)
+uniquefilenext.close()
+      
+

@@ -1,0 +1,8 @@
+#!/bin/sh
+mkdir low
+n=1
+cat low.txt|while read i ;do
+	cp $i low/$n-$i
+	cp ${i%.chk}.out low/$n-${i%.chk}.out
+	n=$((n+1))
+done	

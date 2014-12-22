@@ -1,0 +1,29 @@
+#!/bin/sh
+WORKDIR=/public/luhr
+USER=`whoami`
+OP=`pwd`
+
+cd $WORKDIR
+
+echo "$USER $OP" >>queue
+#cat queue
+#sort userlist is at here ,because the order of userlist  only contribute to add command
+sort userlist >add.tmp
+mv add.tmp userlist
+
+sed '1d' queue > queue-tmp
+sort queue-tmp >queue-tmp2
+
+join queue-tmp2 userlist |sort +2 -3 -nr|cut -d' ' -f1,2 >tmp-queue
+sed -i '2,200d' queue
+#cat tmp-queue
+cat  tmp-queue >>queue
+
+rm tmp-queue queue-tmp queue-tmp2 
+chmod 777 queue
+
+
+
+#if [ $# == 0 ];then echo "$user `pwd`" >>~/queue;
+#else  find `pwd` -maxdepth 1 -name $1 >>~/mainlist-patch;fi
+

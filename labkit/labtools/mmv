@@ -1,0 +1,11 @@
+#
+if [ $# == 2 ]
+then
+mkdir $2
+for name in `cut -f1 $1`
+do 
+mv $name $2/
+done
+else
+echo error parameter
+fi

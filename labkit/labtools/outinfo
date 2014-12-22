@@ -1,0 +1,57 @@
+#!/bin/sh
+tmpfile=$1tmp
+s=`grep -n "Gaussian 03:" $1|head -1|cut -d: -f1`
+s=$((s-1))
+if [ `grep -c "Fast transformation" $1` -gt 0 ]
+then
+    h=`grep -n "Fast transformation" $1|head -1|cut -d: -f1`
+    h=$((h-1))
+else
+    if [ `grep -c "GradGradGrad" $1` -gt 0 ]
+    then
+        h=`grep -n "GradGradGrad" $1|head -1|cut -d: -f1`
+        h=$((h-1))
+    else 
+        if [ `grep -c "Input orientation:" $1` -gt 0 ]
+        then
+            h=`grep -n "Input orientation:" $1|head -1|cut -d: -f1`
+            h=$((h-1))
+        else exit
+        fi
+    fi
+fi
+t=$((h-s+1))
+head -$h $1|tail -$t>$tmpfile
+if [ `grep -c freq $tmpfile` -eq 0 ]
+then 
+    s=`grep -n "Standard orientation:" $1|tail -1|cut -d: -f1`
+ #   h=`grep -n "Rotational constants (GHZ):" $1|tail -1|cut -d: -f1`
+ #   h=$((h+1))
+ #   t=$((h-s+1))
+#    head -$h $1|tail -$t>>$tmpfile
+    u=$((s+5))
+    for h in `grep -n -e "----------------" $1|cut -d: -f1`
+    do
+      if [ $h -gt $u ]
+      then
+          break
+      fi
+    done
+    h=$((h+2))
+    t=$((h-s+1))
+    head -$h $1|tail -$t>>$tmpfile
+    
+    echo >>$tmpfile
+    echo >>$tmpfile
+    s=`grep -n "GINC" $1|tail -1|cut -d: -f1`
+    h=`grep -n "@" $1|tail -1|cut -d: -f1`
+    t=$((h-s+1))
+    head -$h $1|tail -$t>>$tmpfile
+
+    echo >>$tmpfile
+    echo >>$tmpfile 
+    tail -3 $1>>$tmpfile
+    
+    mv $tmpfile $1
+fi
+

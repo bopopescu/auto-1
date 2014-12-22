@@ -1,0 +1,18 @@
+#!/usr/bin/python
+import sys,os,socket
+os.system("pwd")
+mainlist=os.popen("cat mainlist").readlines()
+
+s=socket.socket()
+s.bind(('192.168.1.200',5888))
+s.listen(100)
+while len(mainlist)>0 :
+ cs,address=s.accept()
+ ra=cs.recv(512)
+ cs.send(mainlist.pop())
+ cs.close()
+s.close()
+
+
+
+

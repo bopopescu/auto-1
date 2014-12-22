@@ -1,0 +1,8 @@
+# translate the outfiles to input files with the same method
+# $1 outfiles list
+
+for gout in `cat $1`
+do
+  recompute $gout
+done
+

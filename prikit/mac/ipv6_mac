@@ -1,0 +1,4 @@
+sudo ifconfig gif0 create
+sudo ifconfig gif0 tunnel 192.168.1.200 216.218.221.6
+sudo ifconfig gif0 inet6 2001:470:18:835::2 2001:470:18:835::1 prefixlen 128
+sudo route -n add -inet6 default 2001:470:18:835::1

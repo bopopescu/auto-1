@@ -1,0 +1,7 @@
+#!/bin/sh
+op=`dirname $1`
+workingfile=`basename $1`
+mkdir /local/tmp
+    cd /local/tmp && cp $op/$workingfile . && metacalc $workingfile
+    mv ${workingfile%.*}.* $op/ && rm $op/$workingfile; cd $op;
+

@@ -1,0 +1,10 @@
+for gout in `cat $1`
+do 
+  freq=`echo -n $gout;grep Frequencies $gout|head -1|cut -c16-26`
+  echo $freq
+  imag=`echo $imag;echo $freq|grep '\-'|cut -d" " -f1 `
+done
+echo "All imags:"
+echo $imag
+
+

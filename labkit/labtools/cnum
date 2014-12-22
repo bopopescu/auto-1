@@ -1,0 +1,3 @@
+#!/bin/sh
+ls|gawk 'BEGIN{txt=0;out=0;xyz=0} /\.txt/{txt=txt+1} /\.out/{out=out+1} /\.xyz/{xyz=xyz+1} /\.err/{err=err+1} END{print "txt:",txt,"\nout:",out,"\nxyz:",xyz,"\nerr:",err}'
+

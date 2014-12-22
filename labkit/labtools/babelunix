@@ -1,0 +1,10 @@
+inputlist=$1
+inputtype=$2
+outputtype=$3
+
+for input in `cut -f1 $inputlist`
+do
+  output=${input%.*}.$outputtype
+  babel -i$inputtype $input -o$outputtype $output
+done
+

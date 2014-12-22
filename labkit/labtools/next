@@ -1,0 +1,24 @@
+#!/bin/sh
+
+
+awk '{print $1}' ../unique_list_next.txt |while read name;do cp ../$name .; done
+if [ $1 = out ];then exit;fi
+vim `getbinpath`/../etc/headfile_mout-txt
+ls |grep out >ofile
+mout-txt ofile
+
+cat ofile|while read i;do rm $i;done
+rm ofile
+
+if [ $# -gt 0 ];then 
+    if [ $1 = "chk" ];then
+	for i in *.txt;do
+	    sed -i "1i%chk=${i%.txt}.chk" $i
+	done
+	cp ../unique_list_next.txt ./list.txt
+	awk '{print $1}' list.txt >listchk.txt
+	cp listchk.txt list.txt
+	sed -i 's/out/chk/' listchk.txt
+	
+    fi
+fi

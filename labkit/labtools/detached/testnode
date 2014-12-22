@@ -1,0 +1,8 @@
+#!/bin/sh
+node_av=~/node_av
+exec 3<>~/node_av
+while read node <&3;do
+    rsh $node "echo $node;cp ~/test/test.txt ~/test/testnode/$node.txt ;/public/bin/metacalc ~/test/testnode/$node.txt" </dev/null
+
+done
+

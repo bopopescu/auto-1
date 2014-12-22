@@ -1,0 +1,8 @@
+#!/bin/sh 
+if [ $# -ne 1 ];then echo Please input filename ;fi
+
+i=$1
+atomnum=`egrep '.+' $i|wc -l`
+atomnum=$((atomnum-3))
+sed -i '1,3d;4s/.*/'"$atomnum"'/' $i;
+mv $i ${i%.txt}.xyz

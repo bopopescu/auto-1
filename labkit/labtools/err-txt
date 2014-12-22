@@ -1,0 +1,1 @@
+for I in `ls|grep err` ;do mv $I ${I%.err}.txt;done

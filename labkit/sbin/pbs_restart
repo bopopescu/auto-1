@@ -1,0 +1,4 @@
+sudo /sbin/service pbs_server restart ;
+sudo killall maui;
+sudo maui
+

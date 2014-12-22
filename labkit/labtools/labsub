@@ -1,0 +1,45 @@
+#!/bin/sh
+#cd ~/w-system-super/w/GaussionFiles
+
+if [ $# -ne 3 ];then
+	echo "argument number must 3, with the format: labsub filenum corenum qname"
+	echo "qname: main  mem  old"
+	exit 0;
+fi
+if [ $# -eq 3 ];then
+	qname=$3
+fi
+if [ $1 -gt 1000 ] && [ $1 -lt 1 ]; then
+
+	echo "argument 1 should in 1-1000"
+	exit 0
+fi
+if [ $2 -gt 12 ] && [ $2 -lt 1 ]; then
+	echo "argument 2 should in 1-12"
+	exit 0
+fi
+
+k=0
+j=0
+rm *.sh
+n=$1
+n=$((n-1))
+# echo $n
+echo "#!/bin/sh"  >task$j.sh
+echo "#PBS -S /bin/bash"  >task$j.sh
+echo "#PBS -l nodes=$2" >>task$j.sh
+
+find `pwd`|grep txt|while read i;do
+	echo "calc.sh $i;" >>task$j.sh
+	k=$((k+1));
+	if [ $((k-j)) -gt $n  ]; then
+		qsub -q $qname task$j.sh
+		# echo "task$j.sh"
+		# cat task$j.sh
+		j=$k;
+		echo "#!/bin/sh" >task$j.sh
+		echo "#PBS -S /bin/bash"  >task$j.sh
+		echo "#PBS -l nodes=$2" >>task$j.sh
+	fi
+done
+qsub -q $qname task$j.sh

@@ -1,0 +1,16 @@
+#!/usr/bin/env zsh
+
+IFS=\n
+function dfs(){
+	for file in `find .` ;do
+		#echo `basename $file`
+		tag=`dirname $file`
+		tag=`basename $tag`
+		echo $tag
+	done
+
+}
+#content=`cat $file`
+#geeknote create  -t $file -c $content --tags 'My Notes' --notebook 'test'
+
+#dfs 

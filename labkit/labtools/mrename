@@ -1,0 +1,4 @@
+#!/bin/sh
+cp ../freq ../freq-bak -r &&{
+j=0;cat listchk.txt|while read i;do ((j=j+1));mv $i $j.chk;mv ${i%.chk}.out $j.out ;done	
+}

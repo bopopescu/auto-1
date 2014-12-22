@@ -1,0 +1,50 @@
+#!/bin/sh
+
+#  cut off when large than 4 mins
+#
+timelimit=4
+count=50000
+currentway=`pwd`
+#declare -a gpid
+#declare -a gtime
+while [ $count -gt 0 ]
+do
+
+let count=count-1
+sleep 120
+ps x |grep $currentway|grep "g03" |cut -c0-27>_o_check
+if test -s _o_check
+then
+	gpid=(`awk '{printf("%s\n",$1);}'<_o_check`)
+	echo $gpid
+	gtime=(`awk '{printf("%s\n",$4);}'<_o_check|cut -d: -f1`)
+	for i in `seq 0 $((${#gpid[@]}-1))`; do
+		if [ ${gtime[$i]} -gt $timelimit ]
+		then
+			kill ${gpid[$i]}
+			rm G*$gpid[$i]*
+		fi
+	done
+else	
+	count2=60
+	while [ $count2 -gt 0 ]
+	do
+	let count2=count2-1
+	sleep 1
+	ps x |grep $currentway|grep "g03" >_o_check
+	if test -s _o_check
+	then
+	count2=0
+	fi
+	done
+	
+	if test ! -s _o_check
+	then
+	count=0
+	fi
+fi
+
+
+done
+rm _o_check
+#

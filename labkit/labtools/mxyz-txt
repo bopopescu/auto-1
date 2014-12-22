@@ -1,0 +1,28 @@
+# translate xyzfiles to Gaussian input files
+# $1: list of xyzfiles   $2: headwords of input files
+
+if [ $# == 1 ]
+then
+    cat `getbinpath`/../etc/headfile_mxyz-txt>.mxyz-txt_temporary
+else if [ $# == 2 ]
+then
+    cat $2>.mxyz-txt_temporary
+else
+    echo "Error input!"
+    exit
+fi
+fi
+
+for gxyz in `cat $1`
+do
+  gtxt=${gxyz%.*}.txt
+  cp .mxyz-txt_temporary $gtxt
+  t=`wc -l $gxyz|awk '{print $1}'`
+  t=$((t-2))
+  tail -$t $gxyz >>$gtxt
+  echo >>$gtxt
+  echo >>$gtxt
+  dos2unix $gtxt&
+done
+rm .mxyz-txt_temporary
+

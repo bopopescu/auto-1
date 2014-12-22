@@ -1,0 +1,30 @@
+if [ $# != 6 ]
+then 
+   echo "error parmamts"
+else
+
+filename=$1
+newsort=$2
+from=$3
+to=$4
+tier1=$5
+tier2=$6
+lines=$((to-from+1))
+pf1=.linesort_tempf1
+pf2=.linesort_tempf2
+pf3=.linesort_tempf3
+pf4=.linesort_tempf4
+
+head -$to $filename|tail -$lines|cut -c 1-$tier1 >$pf1
+head -$to $filename|tail -$lines|cut -c $((tier1+5))-$((tier2+tier1+5)) >$pf2
+paste $pf1 $newsort $pf2 |sort +2 >$pf3
+
+head -$((from-1)) $filename>$pf4
+cat $pf3 >> $pf4
+filelines=`wc -l $filename|cut -d" " -f1`
+tail -$((filelines-to)) $filename >> $pf4
+cp $pf4 $filename
+rm $pf1 $pf2 $pf3 $pf4
+
+fi
+

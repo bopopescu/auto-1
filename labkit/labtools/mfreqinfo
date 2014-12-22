@@ -1,0 +1,19 @@
+#
+for gout in `cat $1`
+do
+echo -n $gout "	">>"Zero-point correction.txt"
+grep "Zero-point correction=" $gout|awk '{printf("%s\n",$3);}'>>"Zero-point correction.txt" 
+
+echo -n $gout "	">>"Thermal correction to Energy.txt"
+grep "Thermal correction to Energy=" $gout|awk '{printf("%s\n",$5);}'>>"Thermal correction to Energy.txt"
+
+echo -n $gout "	">>"Thermal correction to Enthalpy.txt"
+grep "Thermal correction to Enthalpy=" $gout|awk '{printf("%s\n",$5);}'>>"Thermal correction to Enthalpy.txt"
+
+echo -n $gout "	">>"Thermal correction to Gibbs Free Energy.txt"
+grep "Thermal correction to Gibbs Free Energy=" $gout|awk '{printf("%s\n",$7);}'>>"Thermal correction to Gibbs Free Energy.txt"
+
+done
+
+
+

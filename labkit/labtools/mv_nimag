@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby 
+`mkdir NImag`
+filelist=`ls |grep out `
+filelist.each_line do |file|
+  if File.read(file.chomp).match(/N([^.] )?I([^.] )?m([^.] )?a([^.] )?g([^.] )?=([^.] )?[123456789]/)
+    IO.popen('mv '+file.chomp+' NImag')
+    IO.popen('mv '+file.chomp.sub(/out/,'chk')+' NImag')
+  end
+end
+
+
+
+

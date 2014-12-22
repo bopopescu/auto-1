@@ -1,0 +1,12 @@
+#!/bin/sh
+isfront=`echo $HOSTNAME|grep -c front`
+if [ $isfront -eq 0 ];then pscpu-node;exit;fi
+
+rm ~/node_available
+if [ $# == 0 ];then nodefile=node_av;
+else nodefile=$1;fi
+for i in `cat ~/$nodefile`
+do
+    ssh $i "pscpuall-single $i" </dev/null;
+done
+cat ~/node_available

@@ -1,0 +1,53 @@
+#!/bin/sh
+resortlist=$1
+standardfile=$2
+atomnum=$3
+molnum=$4
+
+for resortfile in `cut -f1 $resortlist`
+do
+  if [ $atomnum -gt 9 ]
+  then
+     weishu=2
+  else
+     if [ $atomnum -gt 99 ]
+     then
+        weishu=3
+     else
+        weishu=1
+     fi
+  fi
+  if [ $molnum -gt 9 ]
+  then
+     weishu2=2
+  else
+     if [ $molnum -gt 99 ]
+     then
+        weishu2=3
+     else
+        weishu2=1
+     fi
+  fi
+
+  head -$((atomnum+2)) $resortfile|tail -$atomnum|cut -c $((12-weishu))-17,$((27-weishu2))-26|sort  -k2   -b>temp1
+  head -$((atomnum+4)) $standardfile|tail -$atomnum|cut -c $((12-weishu))-17,$((27-weishu2))-26|sort  -k2  -b>temp2
+  paste -d' ' temp1 temp2|sort -n|cut -c $((17-12+weishu+weishu2+1+1+1))-$((17-12+weishu+weishu2+1+1+1+weishu-1))>newsort
+  rm temp1 temp2
+
+  pf1=.linesort_tempf1
+  pf2=.linesort_tempf2
+  pf3=.linesort_tempf3
+  pf4=.linesort_tempf4
+
+  head -$((atomnum+2)) $resortfile|tail -$atomnum|cut -c 1-$((12-weishu-1-1)) >$pf1
+  head -$((atomnum+2)) $resortfile|tail -$atomnum|cut -c $((12+1))-200 >$pf2
+  paste -d" " $pf1 newsort $pf2 |sort  -k2 -n -b>$pf3
+
+  head -2 $resortfile>$pf4
+  cat $pf3 >> $pf4
+  filelines=`wc -l $resortfile|cut -d" " -f1`
+  tail -$((filelines-atomnum-2)) $resortfile >> $pf4
+  cp $pf4 $resortfile
+  rm $pf1 $pf2 $pf3 $pf4 newsort
+  echo "YOU HAVE FINISHED!"
+done

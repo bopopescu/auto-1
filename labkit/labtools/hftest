@@ -1,0 +1,3 @@
+#!/bin/sh
+cd ~/test/calc/;rm hftest -rf;cp hfbak/hf hftest -rf;
+cd ~/test/calc/hftest

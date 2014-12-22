@@ -1,0 +1,39 @@
+# translate Gaussian outfiles to xyzfiles
+# $1: all the Gaussian outfiles
+
+for gout in `cat $1`
+do
+  gxyz=${gout%.*}.xyz
+  s=`grep -n "Standard orientation" $gout|tail -1|cut -d: -f1`
+  begin=$((s+5))
+  for end in `grep -n -e "-----------------" $gout|cut -d: -f1`
+  do
+    if [ $end -gt $begin ]
+    then
+        break
+    fi
+  done
+  end=$((end-1))
+  size=$((end-begin+1))
+  
+  echo $size>$gxyz
+  echo "Generate by mout-xyz">>$gxyz
+
+  awk '
+  NR=='$begin',NR=='$end'\
+  {
+    symbol=get_symbol($2);
+    printf("%s\t%f  %f  %f\n",symbol,$4,$5,$6)>>"'$gxyz'";
+  }
+
+  function get_symbol(number){
+    if(number==1) return "H";
+    else if(number==6) return "C";
+    else if(number==8) return "O";
+    else if(number==7) return "N";
+    else if(number==16) return "S";
+    else return "X";
+  }
+  ' $gout
+done
+

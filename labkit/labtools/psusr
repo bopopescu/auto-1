@@ -1,0 +1,17 @@
+for i in {1..17} {21..29}
+do
+  temp=`rsh snode$i "cat /proc/cpuinfo|grep processor|wc -l ; ps ax -o user,command|grep /opt/g|grep -v grep |cut -d' ' -f1"`
+  num=0;
+  for usr in `echo $temp`
+  do
+    if [ $num -gt 0 ]
+    then 
+      allusr=$allusr$num$usr" "
+    fi
+    num=$((num+1))
+  done
+  all=`echo $temp|cut -d" " -f1`
+  echo -e "snode$i\t$((num-1))/$all $allusr"
+  allusr=""
+done
+

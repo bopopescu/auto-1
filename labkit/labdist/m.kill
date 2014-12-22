@@ -1,0 +1,31 @@
+#!/bin/sh
+#exec 1>/dev/null
+#exec 2>&1
+
+
+isfront=`echo $HOSTNAME|grep -c front`
+if [ $isfront -eq 1 ];then
+    node_av=~/node_av
+    exec 3<>~/node_av
+    
+    while read node <&3;do
+	
+	rsh $node "/public/bin/m.kill $*" </dev/null 
+#	sleep 1   
+    done
+
+else
+    
+    for i in $*;do
+	
+	if [ "$i" = 'sleep' ];then i='sleep 7001';fi
+	if [ "$i" = 'cron' ];then i='m.cron';fi
+	if [ "$i" = 'calc' ];then /public/bin/m.nodekill;continue;fi
+
+	
+#kill `ps x|grep "$i"|grep -v grep|awk '{print $1}'`
+	pkill -f "$i"
+##########!!!!!!!!! maybe here use m.nodekill 	
+    done
+fi
+    

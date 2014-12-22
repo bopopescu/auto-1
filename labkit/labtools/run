@@ -1,0 +1,12 @@
+#!/bin/sh
+if [ $# -ne 2 ];then echo please input atom number and amino acid numbers!!;exit;fi
+if [ -s koko -a -s 1.pdb -a -s 1.top -a -s md.mdp ];then
+ls|grep '\.xyz'>listxyz
+babelunix listxyz xyz pdb
+sed 's/xyz/pdb/' listxyz >list
+mchangename list 1.pdb $1 $2 
+mresort list 1.pdb  $1 $2
+mdemo list 1.top md.mdp
+
+else echo Needed file miss!! Please prepare 1.pdb 1.top md.mdp and koko !! 
+fi

@@ -1,0 +1,134 @@
+#!/usr/bin/python
+import sys,os,socket,string,re
+os.system("pwd")
+
+
+STPP=30000
+def distribute(tt,uu):
+    sumtimestring=os.popen("cd "+tt+" 2>/dev/null;echo >tmp;ls|grep out|while read i;do cat $i|grep time>>tmp;done;awk 'BEGIN{d=0.0;h=0.0;m=0.0;s=0.0;sum=0.0}{d=d+$4;h=h+$6;m=m+$8;s=s+$10;sum=sum+$4*24+$6+$8/60+$10/3600}END{print sum}' tmp;rm tmp 2>/dev/null;").read()
+    sumtime=string.atof(sumtimestring)
+    single=sumtime/14    
+    userlistfile=open("~/userlist",'r')
+    score={}
+    for userlist in userlistfile.readlines():
+        tmp=userlist.split()
+        score[tmp[0]]=string.atof(tmp[1])
+    for j in score.keys():
+        ftmp=(2-string.atof(score[j])/STPP)*single
+        score[j]=string.atof(score[j])+ftmp
+    #minus the score of costing user
+    score[uu]=string.atof(score[uu])-sumtime
+    #write to the score for refreshing the users' score
+    userlistfile.close()
+    userlistfile=open("~/userlist",'w')
+    for j in score.keys():
+        userlistfile.write(j+" "+str(score[j])+"\n")
+    userlistfile.close()
+    #delete the information of notdone
+    ttre=re.compile(r"/")
+    newtt=ttre.sub(r"\/",tt)
+
+    os.system("sed -i '/"+ newtt +"/d' ~/notdone")
+
+
+#########MAIN############
+
+#BIND PORT
+s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
+s.bind(('192.168.1.200',5888))
+s.listen(300)
+user={}
+tasklist={}
+#DEAL WITH NOTDONE
+notdone=open("~/notdone",'r')
+notdonesize=os.path.getsize("~/notdone")
+if notdonesize>3:
+    answer=raw_input("notdone file exists,distribute the last tasks?(y/n):")
+    answer=answer.rstrip()
+    if answer=="y":
+        for notdonelist in notdone.readlines():
+            tmp=[0,0]
+            tmp=notdonelist.split()
+            distribute(tmp[0],tmp[1])
+notdone.close()
+      
+#FORMAL BEGIN
+while True :
+    #if queue is empty, continously accept the signals frome clients for compelete the notdone
+    
+    qsize=os.path.getsize("~/queue")
+    if qsize<3:
+        notdonesize=os.path.getsize("~/notdone")
+        if notdonesize<3:
+            s.close()
+            sys.exit()
+        cs,address=s.accept()
+        ra=cs.recv(512)
+        
+        if ra=="obtain":
+            cs.send("")
+
+
+    #####!!!!!!!some problem
+        else:
+            cs.send("")
+            for i in tasklist.keys():
+
+                if tasklist[i].has_key(ra):
+                    del tasklist[i][ra]
+                    print ra
+                    print len(tasklist[i])                    
+                    if len(tasklist[i])==0 :
+                        distribute(i,user[i])#call
+        cs.close()
+        continue
+    #read queue and process the queue one by one
+    queue=open("~/queue",'r')
+    tmp=queue.readline().split()
+    taskname=tmp[1]
+
+    #user is a map for key of taskname
+    user[taskname]=tmp[0]
+    mainlist=os.popen("cd "+taskname+"; /public/bin/mainlist &>/dev/null;cat mainlist").readlines()
+#   sumtime=0.0
+
+    #tasklist is a map of key taskname
+    tasklist[taskname]={}
+    
+    #tasklist[taskname] is a map of key mainlist
+    for i in mainlist:
+        tasklist[taskname][i.strip()]=0
+    
+    while len(mainlist)>0 :
+        cs,address=s.accept()
+        ra=cs.recv(512)
+
+        if ra=="obtain":
+            cs.send(mainlist[-1])
+            tasklist[taskname][mainlist.pop().strip()]=1  #######!!!!!!should record node name for trace,  and make log
+        else:
+            cs.send("")
+            for i in tasklist.keys():
+
+                if tasklist[i].has_key(ra):                
+                    print ra
+                    del tasklist[i][ra]
+                    print len(tasklist[i])
+                    if len(tasklist[i])==0 :
+                        distribute(i,user[i])#call
+        cs.close()
+        
+    queue.close()
+
+    #write notdone after one task is all out of working but not done
+    #to wipe the notdone information is in the procedure distribute
+
+    notdone=open("~/notdone",'a')####################
+    notdone.write( taskname+" "+user[taskname] + "\n")
+    print taskname+" "+user[taskname]+"\n"
+    notdone.close()
+    os.system("sed -i '1d' ~/queue;")
+
+s.close()
+    

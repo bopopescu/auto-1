@@ -1,0 +1,18 @@
+#!/bin/sh
+echo `pwd`
+father=`ps ax |grep m.calc|grep -v grep|awk 'NR==1{print $1}'`
+if [ $# -gt 0 ];then father=$1;fi
+function killtree {
+    if [ $# == 0 ];then return ;fi
+    father=$1
+    vim `getbinpath`/kill $father
+    kill -9 $father
+    sleep 0.1
+    rm Gau*$father* 
+    sleep 0.1
+#    echo $father >~/father
+#    killtree  `ps lx|awk 'BEGIN{getline fa < "~/father"}$4 ~ fa {print $3}'`
+    killtree `ps lx|awk '$4~/^1$/ {print $3}'`
+    
+}
+killtree $father

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cluster_username=$1
+sudo /usr/sbin/useradd  -d  /public/$cluster_username -g hfnl  -m -k /etc/skel/  $cluster_username  # -m 不存在则创立用户目录，-k 用模板
+#suod /usr/sbin/usermod -d /public/$cluster_username -g hfnl $cluster_username    修改用户
+sudo passwd $cluster_username
+sudo /usr/lib64/yp/ypinit -m            ##按ctrl - d 然后y确认 ，刷新数据库
+sudo /sbin/service ypserv restart   ##重启ypserv, ypserv是nis的服务端服务, ypbind 是客户端服务

@@ -1,0 +1,25 @@
+#!/bin/sh
+#cd ~/w-system-super/w/GaussionFiles
+if [ $# -ne 1 ];then
+	echo "argument number must be 1"
+	exit 0
+fi
+k=0
+j=0
+rm *.sh
+n=$1
+n=$((n-1))
+echo $n
+echo "#!/bin/sh"  >task$j.sh
+find `pwd`|grep txt|while read i;do
+	if [ $((k-j)) -gt $n  ]; then
+		qsub  task$j.sh
+		j=$k;
+		echo "#!/bin/sh" >task$j.sh
+	else
+		echo "metacalc $i;" >>task$j.sh
+	    k=$((k+1));
+	fi
+done
+qsub  task$j.sh
+# 

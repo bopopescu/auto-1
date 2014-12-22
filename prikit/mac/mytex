@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author  : lhr (airhenry@gmail.com)
+# @Link    : http://about.me/air.henry
+
+tex_file_name=$1
+latexmk -f -pdf -quiet -e '$pdflatex=q/xelatex %O -interaction=nonstopmode %S/' $tex_file_name
+# latexmk -f  -pdf -quiet -xelatex  $tex_file_name
+open ${tex_file_name%.tex}.pdf
+
+
+#    -pv    - preview document.  (Side effect turn off continuous preview)
+#    -pv-   - turn off preview mode
+#    -pvc   - preview document and continuously update.  (This also turns
+#                 on force mode, so errors do not cause latexmk to stop.)
+#             (Side effect: turn off ordinary preview mode.)
+#    -pvc-  - turn off -pvc

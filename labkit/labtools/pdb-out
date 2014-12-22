@@ -1,0 +1,6 @@
+#!/bin/sh
+ls|grep '\.xvg$'|while read i;do 
+tail -1 $i >temp$i
+mv temp$i $i
+done
+pdb-out.py

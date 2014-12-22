@@ -1,0 +1,59 @@
+#
+file=$HOME/$2.record
+tempf=$HOME/.$2_temporary$1
+currentway=`pwd`
+scurrentway=`setw $currentway 25`
+sleep 3 
+ps x|grep "g03"|grep $currentway>_s_check
+if test ! -s _s_check
+then
+	echo "something error!"
+fi
+
+n=0
+t=12
+while test -s _s_check
+do
+	if [ $t -eq 12 ]
+	then
+		ntxt=`ls |grep -c '\.txt'`
+		nout=`ls |grep -c '\.out'`
+		cat $file>$tempf
+		echo -e "$1\t$scurrentway :\t$ntxt txt\t$nout out\tin $((n*1))h">>$tempf
+                mv $tempf $file
+		t=0
+	fi
+
+	sleep 1h	
+	ps x|grep "g03"|grep $currentway>_s_check
+
+	if test ! -s _s_check
+	then
+		cout=60
+		while [ $cout -gt 0 ]
+		do
+			let cout=cout-1
+			sleep 1
+			ps x|grep "g03"|grep $currentway>_s_check
+			if test -s _s_check
+			then
+			cout=0
+			fi 
+		done
+	fi
+
+	n=$((n+1))
+	t=$((t+1))
+done
+rm _s_check
+nout=`ls |grep -c '\.out'`
+if [ `ls |grep error|grep -c error` -eq 1 ]
+then
+e=error
+else
+e=""
+fi
+cat $file>$tempf
+echo -e "$1\t$scurrentway :\tok!\t$nout out\tin$((n*1))h\t$e">>$tempf
+mv $tempf $file
+

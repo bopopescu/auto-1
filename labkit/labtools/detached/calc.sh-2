@@ -1,0 +1,13 @@
+#!/bin/sh
+op=`dirname $1`
+workingfile=`basename $1`
+mkdir /local/tmp
+    if  cd /local/tmp && cp $op/$workingfile . && metacalc $workingfile ;
+	then
+		mv ${workingfile%.*}.* $op/ && rm $op/$workingfile; cd $op;
+	#	echo metacalc normal
+	else
+		mv $op/$workingfile $op/${workingfile%.txt}.err
+	#	echo metacalc killed
+	fi 
+

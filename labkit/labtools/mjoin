@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ $# -ne 2 ] ;then echo "arguments should be two";exit;fi
+
+sort $1 >1.txt
+sort $2 >2.txt
+join 1.txt 2.txt >tmp.txt
+rm 1.txt 2.txt
+sort -t' ' +3 -n tmp.txt >tmp2.txt
+cut -d' ' -f1,2,4,5,7 tmp2.txt >align_$1.txt
+rm tmp.txt tmp2.txt

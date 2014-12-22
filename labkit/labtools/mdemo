@@ -1,0 +1,44 @@
+#!/bin/sh
+pdblist=$1
+standardtop=$2
+mdpfile=$3
+
+for pdbfile in `cut -f1 $pdblist`
+do
+  grofile=${pdbfile%.*}.gro
+  tprfile=${pdbfile%.*}.tpr
+  trrfile=${pdbfile%.*}.trr
+  mgrofile=m${pdbfile%.*}.gro
+  edrfile=${pdbfile%.*}.edr
+  xvgfile=${pdbfile%.*}.xvg
+  mpdbfile=m${pdbfile%.*}.pdb
+
+  echo "Starting editconf_d"
+
+  editconf -f $pdbfile -o $grofile
+
+  echo "Starting grompp_d..."
+
+  grompp -f $mdpfile -c $grofile -p $standardtop -o $tprfile
+
+  echo "grompp_d finished"
+
+  echo "starting energy minimisation mdrun_d..."
+
+  mdrun -nice 0 -s $tprfile -o $trrfile -c $mgrofile -e $edrfile -v
+
+  echo "mdrun_d finished"
+
+  g_energy -f $edrfile -s $tprfile -o $xvgfile < koko
+
+  rm -f temp
+  tail -1 $xvgfile >temp$xvgfile
+  mv temp$xvgfile $xvgfile
+  echo "g_energy_d finished"
+
+  editconf -f $mgrofile -o $mpdbfile
+
+  rm -f ./#*
+
+  rm -f *.tpr *.trr *.edr *.gro
+done

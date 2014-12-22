@@ -1,0 +1,78 @@
+#!/bin/sh
+inputlist=$1
+standardfile=$2
+atomnum=$3
+molnum=$4
+
+if [ $atomnum -gt 9 ]
+then
+   weishu=2
+else
+   if [ $atomnum -gt 99 ]
+   then
+      weishu=3
+   else
+      weishu=1
+   fi
+fi
+
+
+if [ $molnum -gt 9 ]
+then
+   weishu2=2
+else
+   if [ $molnum -gt 99 ]
+   then
+      weishu2=3
+   else
+      weishu2=1
+   fi
+fi
+
+
+for input in `cut -f1 $inputlist`
+do
+  if [ $molnum -eq 1 ]
+  then
+    head -$((atomnum+2)) $input|tail -$atomnum|cut -c 12-17|sed -n '/HXT/'p>temp1
+    if [ -s temp1 ]
+    then
+      sed 's/ O / OT/' $input|sed 's/OXT/O  /'|sed 's/HXT/HO /'>temp2
+      cp temp2 $input
+      rm temp2 temp1
+    else
+      sed 's/ H / HO/' $input|sed 's/OXT/OT /'>temp3
+      cp temp3 $input
+      rm temp3 temp1
+    fi
+  else
+    head -$((atomnum+2)) $input|tail -$atomnum|cut -c 12-17|sed -n '/HXT/'p>temp1
+    if [ -s temp1 ]
+    then
+      head -$((atomnum+2)) $input|tail -$atomnum|cut -c 12-17,$((27-weishu2))-26>temp0
+      numO=`grep -n "\bO   $molnum\b" temp0|tail -1|cut -c 1-$weishu`
+      sed "s/$numO  O /$numO  OT/" $input|sed 's/OXT/O  /'|sed 's/HXT/HO /' >temp2
+      cp temp2 $input
+      rm temp2 temp0 temp1
+    else
+      head -$((atomnum+2)) $input|tail -$atomnum|cut -c 12-17,$((27-weishu2))-26>temp
+      numH=`grep -n "\bH   $molnum\b" temp|tail -1|cut -c 1-$weishu`
+      sed "s/$numH  H /$numH  HO/" $input|sed 's/OXT/OT /' >temp3
+      cp temp3 $input
+      rm temp3 temp temp1
+    fi
+  fi
+
+  head -$((atomnum+2)) $input|tail -$atomnum|cut -c 12-17,$((27-weishu2))-26>>temp4
+  head -$((atomnum+4)) $standardfile|tail -$atomnum|cut -c 12-17,$((27-weishu2))-26>>temp4
+  sort temp4|uniq -u>temp5
+  if [ -s temp5 ]
+  then
+    echo "YOU NEED MORE TRANSLATION!!!"
+    echo $input>>error
+  else
+    echo "YOU HAVE FINISHED!"
+  fi
+  rm temp4 temp5
+
+done

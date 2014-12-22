@@ -1,0 +1,49 @@
+# translate Gaussian outfiles to input files
+# $1: all the Gaussian outfiles   
+# $2: the headwords of input file
+# the headwords in /labsuit/etc/headfile_mout-txt
+
+for gout in `cat $1`
+do
+  gtxt=${gout%.*}.txt
+  s=`grep -n "Standard orientation" $gout|tail -1|cut -d: -f1`
+  begin=$((s+5))
+  for end in `grep -n -e "------------------" $gout|cut -d: -f1`
+  do
+    if [ $end -gt $begin ]
+    then
+        break
+    fi
+  done
+  end=$((end-1))
+  
+  if [ $# == 1 ]
+  then
+      cat `getbinpath`/../etc/headfile_mout-txt>$gtxt
+  else if [ $# == 2 ]
+  then
+      cat $2>$gtxt
+  fi
+  fi
+  
+  awk '
+  NR=='$begin',NR=='$end'\
+  {
+    symbol=get_symbol($2);
+    printf("%s\t%f  %f  %f\n",symbol,$4,$5,$6)>>"'$gtxt'";
+  }
+
+  function get_symbol(number){
+    if(number==1) return "H";
+    else if(number==6) return "C";
+    else if(number==8) return "O";
+    else if(number==7) return "N";
+    else if(number==16) return "S";
+    else return "X";
+  }
+  ' $gout
+
+  echo >>$gtxt
+  echo >>$gtxt
+done
+

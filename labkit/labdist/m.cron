@@ -1,0 +1,21 @@
+#!/bin/bash
+#echo `pgrep -f m.calc|wc -l`
+#echo `pgrep -f m.cron|grep -v $$|wc -l`
+
+cronisrunning=`pgrep -f m.cron|grep -v $$|wc -l`
+if [ $cronisrunning -gt 1 ];then /public/bin/m.kill sleep;exit;fi
+
+
+
+while [ 1 ];do
+    isrunning=`pgrep -f m.calc|wc -l`
+    all=`cat /proc/cpuinfo |grep processor|wc -l`
+    if [ $all -eq 16 ];then ((all=8));fi
+    used=`ps ax -o %cpu|awk '{tmp=sprintf("%.0f",($1+20)/100);sum=sum + tmp}END{print sum}'`
+    num=$(($all-$used))
+    echo $num  $isrunning
+    if [ $isrunning -eq 0 -a $num -gt 0 ] ;then
+    /public/bin/m.calc
+    fi
+    sleep 7001
+done

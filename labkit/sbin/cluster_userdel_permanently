@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cluster_username=$1
+sudo /usr/sbin/userdel $cluster_username  # -m 不存在则创立用户目录，-k 用模板
+sudo /usr/lib64/yp/ypinit -m            ##按ctrl - d 然后y确认 ，刷新数据库
+sudo /sbin/service ypserv restart   ##重启ypserv, ypserv是nis的服务端服务, ypbind 是客户端服务
+sudo rm -rf /public/$cluster_username

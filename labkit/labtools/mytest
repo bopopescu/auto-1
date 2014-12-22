@@ -1,0 +1,29 @@
+#!/bin/sh
+
+fSum 3 2;
+function fSum()
+{
+    echo $1,$2;
+    return $(($1+$2));
+}
+function fSum2()
+{
+    echo $1,$2;
+    return $(($1+$2));
+}
+fSum 5 7;
+echo first test
+
+total=$(fSum 3 2);
+echo second
+
+total2=$(fSum2 4 5) ;
+echo $1, $total,$?, 
+echo haha
+
+echo $1, $total2, $?
+# test=$(ls)
+# echo $test
+# cd ..
+# pwd
+# echo $test
