@@ -6,11 +6,23 @@ import os,sys
 
 def mypub():
     home=os.environ['HOME']
-    mypub=os.path.join(home,'.yadr/mybin/pub')
+    mypub=os.path.join(home,'lhrkits/pubkit')
     if not mypub in sys.path:
         sys.path.append(mypub)
 
 mypub()
+
+
+
+
+
+def import_path(path):
+
+    mypub=path
+    if not mypub in sys.path:
+        sys.path.append(mypub)
+
+
 
 def myimport_single(mymodule):
 
