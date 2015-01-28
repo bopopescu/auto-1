@@ -3,23 +3,24 @@
 # @Author  : lhr (airhenry@gmail.com)
 # @Link    : http://about.me/air.henry
 
-"""
-Usage:
+'''
 
-    tmpelate.py  [-q | --quiet] [-l | --log] [-d | --debug]
-    tmpelate.py (-h | --help)
-    tmpelate.py --version
+this is interface file
 
-Options:
-    -h --help     Show this screen.
-    --version     Show version.
-    -l --log      Logging in makemd.log file.
-    -q --quiet    Quiet output.
-    -d --debug    Debug output.
+也是全文的文档, 先定义好所有的kit_path, 然后 source set_kits_paths.sh 设定环境变量.
+所有的py文件, 要使用labkit的库, 只需要import labkitpath
 
-Notes:
-   my tmpelate
-"""
+
+'''
+
+
+# todo: todo列表在这
+# todo: 开始
+
+
+from labmm import labpdb
+
+
 
 from docopt import docopt
 import os, sys, re, sh
@@ -31,20 +32,5 @@ import crash_on_ipy
 import mylog
 
 
-def main(logger=mylog.default_logger()):
-    arguments = docopt(__doc__, version='0.0')
-    self_name = os.path.basename(sys.argv[0])
-    # logfile=self_name.replace('py','log')
-    # logger=set_mylogger(arguments,logfile)
-    # main_config=load_config('.ll')
-
-    # dir_name=os.path.basename(os.getcwd())
-    # test_file_name='test.txt'
-    # test_file=open(test_file_name, 'w')
-    # test_file.close()
-
-
-if __name__ == '__main__':
-    main()
 
 

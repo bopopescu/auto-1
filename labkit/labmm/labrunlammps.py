@@ -1,3 +1,4 @@
 __author__ = 'lhr'
 
-lammp
+from lammps import lammps
+lmp = lammps()

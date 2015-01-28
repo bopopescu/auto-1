@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sfront">
     <serverData>
       <paths name="sfront">
         <serverdata>
@@ -11,9 +11,11 @@
             <excludedPath local="true" path="$PROJECT_DIR$/_ref" />
             <excludedPath local="true" path="$PROJECT_DIR$/_bak" />
             <excludedPath local="true" path="$PROJECT_DIR$/labkit/_ref" />
+            <excludedPath local="true" path="$PROJECT_DIR$/prikit" />
           </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # @Author  : lhr (airhenry@gmail.com)
 # @Link    : http://about.me/air.henry
-__author__ = 'lhr'
 
 """
 Usage:
@@ -27,7 +26,7 @@ import os, sys, re, sh
 from glob import glob
 import yaml, logging
 
-import mypub
+import mypub,labkitpath
 import crash_on_ipy
 import mylog
 

@@ -1,0 +1,8 @@
+{
+    "server":"106.185.31.10",
+    "server_port":8388,
+    "local_port":1080,
+    "password":"bbs.ustc.edu.cn",
+    "timeout":300,
+    "method":"aes-128-cfb"
+}

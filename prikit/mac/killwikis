@@ -1,0 +1,27 @@
+#!/usr/bin/env zsh
+
+# kill all wiki server by killbyname_mac
+
+killbyname=killbyname_mac
+
+################### kill ###################
+
+### kill mdwiki
+$killbyname SimpleHTTPServer 2>/dev/null
+
+### stop wikitten
+# sudo apachectl stop
+# expect "password:"
+# send "starnada\r"
+
+### kill gollum
+$killbyname gollum 2>/dev/null
+
+
+### kill simiki
+$killbyname simiki 2>/dev/null
+
+### kill markdoc
+$killbyname markdoc 2>/dev/null
+
+echo all wiki servers has been killed

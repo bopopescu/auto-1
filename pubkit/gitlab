@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+# first you should add new repo in your gitlab web pages.
+# if local repo is a new repo, run "gitlab new"
+# else if the local repo is already a git repo, run "gitlab push"
+
+
+reponame=$(basename $(pwd))
+
+if [[ x$1 == xnew ]]; then
+    # new repo
+    git init
+    touch README.md
+    git add .
+    git commit -m "first commit"
+    if  ! (git remote -v|grep lhr_gitlab) ;then
+        git remote add lhr_gitlab git@git.ustclug.org:lhrkkk/$reponame.git
+    fi
+    git push -u lhr_gitlab master
+elif [[ x$1 == xpush ]]; then
+    # push to gitlab
+    # git add .
+    # git commit -m "push from gitlab push"
+    if  ! (git remote -v|grep lhr_gitlab) ;then
+        git remote add lhr_gitlab git@git.ustclug.org:lhrkkk/$reponame.git
+    fi
+    git push -u lhr_gitlab master
+elif [[ x$1 == xpull ]]; then
+    git pull lhr_gitlab master
+fi
+
+
+
+
+

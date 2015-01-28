@@ -1,0 +1,20 @@
+#!/bin/sh
+###
+#kill a process by it's name, use ps and grep to match the name in progress, worked in mac
+
+
+if [[ $# == 0 || $1 =~ help ]]; then
+    echo Usage: killbyname somename     // only one argument
+    exit 0
+fi
+
+### kill by name
+kill `ps aux |grep $1 |grep -v grep|grep -v killbyname|awk '{print $2 }'`
+
+
+### show kill status
+if [[ $? == 0 ]]; then
+    echo process $1 killed successfully. >&1
+else
+    echo please have a reviewe at $1. >&2
+fi

@@ -1,0 +1,23 @@
+#!/bin/sh
+
+name=$1
+
+
+
+if [[ $name =~ \.Rmd$ ]]; then
+    name=${name%.Rmd}
+    # notedown $name.Rmd --run --rmagic --knit >$name.ipynb
+    notedown $name.Rmd --to markdown  --rmagic --knit >$name.md
+    notedown $name.md  --run  >$name.ipynb
+elif [[ $name =~ \.md$ ]]; then
+    name=${name%.md}
+    notedown $name.md --run  >$name.ipynb
+elif [[ $name =~ \.ipynb$ ]]; then
+    name=${name%.ipynb}
+    notedown $name.ipynb --to markdown --render >${name}_output.md
+
+fi
+
+
+## Usage:
+# nd filename.rmd/md --run

@@ -1,9 +1,10 @@
+#!/bin/sh
 
-lhrkits=$HOME/lhrkits
 
-alias pubkit='cd $lhrkits/pubkit'
-alias mac='cd $lhrkits/prikit/mac'
-alias linux='cd $lhrkits/prikit/linux'
-alias remote='cd $lhrkits/prikit/remote'
-alias labkit='cd $lhrkits/labkit'
-alias prikit='cd $lhrkits/prikit'
+file=$HOME/lhrkits/pubkit/lhr_alias
+if [ $HOSTNAME = sfront ]; then
+    rmate $file
+
+else
+    subl $file
+fi

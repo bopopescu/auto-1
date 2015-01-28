@@ -1,0 +1,71 @@
+#!/usr/bin/env zsh
+
+
+if [[ x$1 == xstart ]]; then
+
+
+    # dynamic wikis, live edit
+    ### mdwiki   http://localhost:8080
+    cd ~/_ev/content
+    pyserver &
+    open http://localhost:8080
+
+    ### wikitten wiki   http://wikitten.local:80
+    # sudo apachectl restart
+    # expect "password:"
+    # send "starnada\r"
+    # open http://wikitten.local/
+
+    ### gollum wiki  http://localhost:4567
+    cd /Users/lhr/_ev/wiki/gollum
+    gollum&
+    open http://localhost:4567
+
+
+elif [[ x$1 == xgenerate ]]; then
+    # generate needed, like hexo.
+
+    ## simiki  http://localhost:8000/
+    cd /Users/lhr/_ev/wiki/simiki
+    simiki generate && simiki preview&
+    open http://localhost:8000/
+
+
+    ## markdoc  http://127.0.0.1:8008
+    cd /Users/lhr/_ev/wiki/markdoc/
+    markdoc build && markdoc serve&
+    open http://127.0.0.1:8008
+
+
+elif [[ x$1 == xstop ]]; then
+    # kill all wiki server by killbyname_mac
+
+    killbyname=killbyname_mac
+
+    ################### kill ###################
+
+    ### kill mdwiki
+    $killbyname SimpleHTTPServer 2>/dev/null
+
+    ### stop wikitten
+    # sudo apachectl stop
+    # expect "password:"
+    # send "starnada\r"
+
+    ### kill gollum
+    $killbyname gollum 2>/dev/null
+
+
+    ### kill simiki
+    $killbyname simiki 2>/dev/null
+
+    ### kill markdoc
+    $killbyname markdoc 2>/dev/null
+
+    echo all wiki servers has been killed
+else
+    echo "Usage: wikis (start|generate|stop)"
+    echo "start      for  mdwiki, wikitten, gollum"
+    echo "generate   for for markdoc, simiki"
+    echo "stop       for kill all wiki servers"
+fi

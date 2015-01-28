@@ -21,30 +21,31 @@ Notes:
    my tmpelate
 """
 
-from docopt import docopt
-import os, sys, re, sh
-from glob import glob
-import yaml, logging
-
-import mypub, labkitpath
-import crash_on_ipy
-import mylog
 
 
-def main(logger=mylog.default_logger()):
-    arguments = docopt(__doc__, version='0.0')
-    self_name = os.path.basename(sys.argv[0])
-    # logfile=self_name.replace('py','log')
-    # logger=set_mylogger(arguments,logfile)
-    # main_config=load_config('.ll')
 
-    # dir_name=os.path.basename(os.getcwd())
-    # test_file_name='test.txt'
-    # test_file=open(test_file_name, 'w')
-    # test_file.close()
+#
+#
+# if __name__ == '__main__':
+#     main()
 
 
-if __name__ == '__main__':
-    main()
 
+class A:
+    a=0
+    b=0
+    def hello(self):
+        print self.a,self.b
+self
+a=A()
+a.c=1
+print a.c
+a.__class__.c=4
+print A.c
 
+def run(s):
+    s='haha'
+s=A()
+s.s='good'
+run(s)
+print s

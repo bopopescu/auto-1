@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+#start all wikis. containing mdwiki, wikitten, gollum
+#simiki and markdoc are not started by defalt
+
+echo $PATH
+# dynamic wikis, live edit
+### mdwiki   http://localhost:8080
+cd ~/_ev/content
+pyserver &
+open http://localhost:8080
+
+### wikitten wiki   http://wikitten.local:80
+# sudo apachectl restart
+# expect "password:"
+# send "starnada\r"
+# open http://wikitten.local/
+
+### gollum wiki  http://localhost:4567
+cd /Users/lhr/_ev/wiki/gollum
+gollum&
+open http://localhost:4567
+
+
+
+# generate needed, like hexo.
+
+### simiki  http://localhost:8000/
+# cd /Users/lhr/_ev/wiki/simiki
+# simiki generate && simiki preview&
+# open http://localhost:8000/
+
+
+### markdoc  http://127.0.0.1:8008
+# cd /Users/lhr/_ev/wiki/markdoc/wiki
+# markdoc build && markdoc serve&
+# open http://127.0.0.1:8008

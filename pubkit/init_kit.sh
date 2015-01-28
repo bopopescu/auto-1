@@ -12,4 +12,4 @@ done
 alias cp=cp
 
 cp -rf $kit_dir_name/mypub.py ~/anaconda/lib/python2.7
-source $kit_dir_name/lae
+source $kit_dir_name/lhr_alias

@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+if [[ $# == 1 ]]; then
+    pandoc -t revealjs -s $1 -o ${1%.md}_revealjs.html -c reveal.js/css/theme/blood.css
+else
+    echo "Usage: md2revealjs <filename.md>"
+    echo "will turn the <filename.md> to filename_revealjs.html "
+fi

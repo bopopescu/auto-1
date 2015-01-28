@@ -1,1 +1,1 @@
-ssh -p 10295 -R 52698:localhost:52698 -X lhrkkk@s1.freeshell.ustc.edu.cn
+ssh -p 30295 -R 52698:localhost:52698 -X lhrkkk@ssh.freeshell.ustc.edu.cn

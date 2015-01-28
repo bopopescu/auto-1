@@ -30,6 +30,9 @@ import mypub, labkitpath
 import crash_on_ipy
 import mylog
 
+def fun(a,b):
+    a=1
+    b=2
 
 def main(logger=mylog.default_logger()):
     arguments = docopt(__doc__, version='0.0')
@@ -45,6 +48,19 @@ def main(logger=mylog.default_logger()):
 
 
 if __name__ == '__main__':
-    main()
+    c=1
+    d=1
+    fun(c,d)
+    print c,d
+    test_file=open('test_file.txt','w')
+    u=u"汉字"
+    s="汉字"
+    print os.getcwd()
+    test_file.write(u)
+    test_file.close()
+
+    test_file=open('test_file.txt','r')
+    print test_file.read()
 
 
+os.listdir

@@ -20,7 +20,6 @@ Options:
 Notes:
    my tmpelate
 """
-
 from docopt import docopt
 import os, sys, re, sh
 from glob import glob
@@ -29,6 +28,29 @@ import yaml, logging
 import mypub, labkitpath
 import crash_on_ipy
 import mylog
+
+class Ga():
+
+    def prepare_input_files(self,in_conformer):
+        sh.mkdir(in_conformer)
+        if in_conformer.calc_method=='xru_ga':
+            in_conformer.get('in')['']
+
+    def collect_output_files(self,in_conformer):
+        sh.
+    def run(self,in_conformer):
+        '''
+
+        :param in_conformer:
+        :return:out_collection
+        '''
+        self.prepare_input_files()
+
+        sh.xru_ga()
+        self.collect_output_files()
+
+        out_collection
+        return out_collection
 
 
 def main(logger=mylog.default_logger()):
