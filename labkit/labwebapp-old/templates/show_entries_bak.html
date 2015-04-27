@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <form action="{{ url_for('add_entry') }}" method=post class=add-entry>
+      <dl>
+        <dt>Molecular Name:
+        <dd><input type=text size=30 name=title>
+        <dt>XYZ content or pdb:
+        <dd><textarea name=text rows=5 cols=40></textarea>
+        <dd><input type=submit value=push>
+      </dl>
+    </form>
+  <ul class=entries>
+  {% for entry in entries %}
+    <li><h2>{{ entry.title }}</h2>
+
+<!--------<h2>Show molecule conformer</h2>-->
+
+<!--<p>The following molecule is triiodothyroxine. </p>-->
+
+<!--{{ entry.title }}-->
+
+
+<div id="glmol02" style="width: 400px; height: 300px; background-color: black;"></div> <textarea id="glmol02_src" style="display: none;">
+{{ entry.text|safe }}
+
+
+
+      </textarea>
+
+<script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/Three49custom.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/GLmol.js') }}" ></script>
+<script type="text/javascript">
+
+
+
+
+  var glmol02 = new GLmol('glmol02');
+  glmol02.defineRepresentation = function() {
+     var all = this.getAllAtoms();
+     var hetatm = this.removeSolvents(this.getHetatms(all));
+     this.colorByAtom(all, {});
+     this.colorByChain(all);
+     var asu = new THREE.Object3D();
+//     this.drawBondsAsStick(asu, hetatm, this.cylinderRadius, this.cylinderRadius);
+//     this.drawBondsAsStick(asu, this.getResiduesById(this.getSidechains(this.getChain(all, ['A'])), [58, 87]), this.cylinderRadius, this.cylinderRadius);
+//     this.drawBondsAsStick(asu, this.getResiduesById(this.getSidechains(this.getChain(all, ['B'])), [63, 92]), this.cylinderRadius, this.cylinderRadius);
+     this.drawBondsAsStick(asu, hetatm, this.cylinderRadius / 2.0, this.cylinderRadius, true, false, 0.3);
+     this.drawCartoon(asu, all, this.curveWidth, this.thickness);
+
+     this.drawSymmetryMates2(this.modelGroup, asu, this.protein.biomtMatrices);
+     this.modelGroup.add(asu);
+  };
+
+
+</script>
+    {% endfor %}
+      {% else %}
+    <li><em>Unbelievable.  No entries here so far</em>
+    {% endif %}
+
+  </ul>
+
+
+<hr style="clear: both;">
+<!--<p><a href="http://sourceforge.jp/"><img src="http://sourceforge.jp/sflogo.php?group_id=6386&type=1" width="96" height="31" border="0" alt="SourceForge.JP"></a>-->
+  <br>(C) Copyright 2014 Haorui Lu <br>
+  This program is released under LGPL3.</p>
+
+
+
+{% endblock %}

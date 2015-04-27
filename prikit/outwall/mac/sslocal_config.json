@@ -4,5 +4,5 @@
     "local_port":1080,
     "password":"bbs.ustc.edu.cn",
     "timeout":300,
-    "method":"aes-128-cfb"
+    "method":"aes-256-cfb"
 }

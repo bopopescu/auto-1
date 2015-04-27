@@ -9,34 +9,34 @@
         <dd><input type=submit value=pull>
     </dl>
 </form>
+
+
+
+<script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/Three49custom.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/GLmol.js') }}" ></script>
 <ul class=entry>
+    {% for entry in entries %}
     <li><h2>{{ entry.title }}</h2>
 
-        <!--<h2>Show molecule conformer</h2>-->
-
-        <!--<p>The following molecule is triiodothyroxine. </p>-->
-
-        <!--{{ entry.title }}-->
 
 
-        <div id="glmol02" style="width: 400px; height: 300px; background-color: black;"></div> <textarea id="glmol02_src" style="display: none;">
+
+        <div id="{{ entry.title }}" style="width: 400px; height: 300px; background-color: black;"></div> <textarea id="{{ entry.title }}_src" style="display: none;">
             {{ entry.text|safe }}
 
 
 
         </textarea>
 
-        <script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/Three49custom.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
-        <script type="text/javascript" src="{{ url_for('static', filename='js/GLmol.js') }}" ></script>
         <script type="text/javascript">
 
 
 
 
-            var glmol02 = new GLmol('glmol02');
-            glmol02.defineRepresentation = function() {
+            var {{ entry.title }} = new GLmol('{{ entry.title }}');
+            {{ entry.title }}.defineRepresentation = function() {
                 var all = this.getAllAtoms();
                 var hetatm = this.removeSolvents(this.getHetatms(all));
                 this.colorByAtom(all, {});
@@ -54,10 +54,10 @@
 
 
         </script>
+        {% endfor %}
         {% else %}
     <li><em>Unbelievable.  No entries here so far</em>
         {% endif %}
-
 </ul>
 
 

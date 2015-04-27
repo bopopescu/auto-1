@@ -1,3 +1,4 @@
 #!/bin/sh
 # ssh -R 52698:localhost:52698 -X lhr@front
-ssh -R 52698:localhost:52698 lhr@front
+
+ssh -R 52698:localhost:52698 $1 lhr@front

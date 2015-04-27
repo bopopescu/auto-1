@@ -10,6 +10,11 @@
         <dd><input type=submit value=push>
     </dl>
 </form>
+
+<script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/Three49custom.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/GLmol.js') }}" ></script>
 <ul class=entries>
     {% for entry in entries %}
     <li><h2>{{ entry.title }}</h2>
@@ -24,10 +29,6 @@
 
         </textarea>
 
-        <script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/Three49custom.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/jquery-1.7.min.js') }}"></script>
-        <script type="text/javascript" src="{{ url_for('static', filename='js/GLmol.js') }}" ></script>
         <script type="text/javascript">
 
 
@@ -61,7 +62,7 @@
 
 
 <hr style="clear: both;">
-<!--<p><a href="http://sourceforge.jp/"><img src="http://sourceforge.jp/sflogo.php?group_id=6386&type=1" width="96" height="31" border="0" alt="SourceForge.JP"></a>-->
+<!--------<p><a href="http://sourceforge.jp/"><img src="http://sourceforge.jp/sflogo.php?group_id=6386&type=1" width="96" height="31" border="0" alt="SourceForge.JP"></a>-->
 <br>(C) Copyright 2014 Haorui Lu <br>
 This program is released under LGPL3.</p>
 

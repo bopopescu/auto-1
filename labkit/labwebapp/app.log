@@ -1,0 +1,393 @@
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 125, in download_zip
+    os.chdir(moleculeClass.path+title)
+OSError: [Errno 2] No such file or directory: 'databank1-A-Neutral'
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 125, in download_zip
+    os.chdir(moleculeClass.path+title)
+OSError: [Errno 2] No such file or directory: 'databank1-A-Neutral'
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 125, in download_zip
+    os.chdir(moleculeClass.path)
+OSError: [Errno 2] No such file or directory: 'databank1-A-Neutral'
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-M-N [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    try:
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 529, in manage_applications
+    return render_template('manage_applications.html', default_settings=app.config,applications=applications['data'], pagination=pag, meta_title='applications')
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/manage_applications.html", line 1, in top-level template code
+    {%- extends 'index.html' -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/index.html", line 7, in top-level template code
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/index.html", line 7, in block "nav"
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/nav.html", line 10, in top-level template code
+    <li><a href="{{ url_for('show_applications') }}">Show Applications</a></li>
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 312, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1641, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 305, in url_for
+    force_external=external)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/werkzeug/routing.py", line 1616, in build
+    raise BuildError(endpoint, values, method)
+BuildError: ('show_applications', {}, None)
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 93, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 7, in top-level template code
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 7, in block "nav"
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/nav.html", line 10, in top-level template code
+    <li><a href="{{ url_for('show_applications') }}">Show Applications</a></li>
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 312, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1641, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 305, in url_for
+    force_external=external)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/werkzeug/routing.py", line 1616, in build
+    raise BuildError(endpoint, values, method)
+BuildError: ('show_applications', {}, None)

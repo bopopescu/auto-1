@@ -7,3 +7,7 @@ alias linux='cd $lhrkits/prikit/linux'
 alias remote='cd $lhrkits/prikit/remote'
 alias labkit='cd $lhrkits/labkit'
 alias prikit='cd $lhrkits/prikit'
+
+alias math='/Applications/Mathematica.app/Contents/MacOS/MathKernel'
+alias E='/usr/local/Cellar/emacs-mac/emacs-24.4-mac-5.3/Emacs.app/Contents/MacOS/Emacs'
+alias e='emacsclient '

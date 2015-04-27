@@ -20,6 +20,7 @@
     </annotationProcessing>
   </component>
   <component name="CopyrightManager" default="" />
+  <component name="CppTools.Loader" reportImplicitCastToBool="false" reportNameReferencedOnce="false" warnedAboutFileOutOfSourceRoot="true" version="3" currentProject="$PROJECT_DIR$/prikit/outwall/mac/proxychains/dist/config.mak" compilerSelect="AUTO" />
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>

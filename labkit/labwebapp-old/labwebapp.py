@@ -13,6 +13,9 @@
 from sqlite3 import dbapi2 as sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, \
     render_template, flash, _app_ctx_stack
+import mypub
+import crash_on_ipy
+
 
 # configuration
 DATABASE = '/tmp/flaskr.db'
@@ -73,6 +76,7 @@ def push_entry():
     db = get_db()
     cur = db.execute('select title, text from entries order by id desc')
     entries = cur.fetchall()
+    print entries
     if request.method == 'POST':
         if not session.get('logged_in'):
             abort(401)
@@ -95,15 +99,18 @@ def push_entry():
         #     if entry.title==request.form['title']:
         return render_template('push_entry.html',entries=entries)
 
-@app.route('/pull')
+@app.route('/pull', methods=['GET','POST'])
 def pull_entry():
     db = get_db()
     cur = db.execute('select title, text from entries order by id desc')
     entries = cur.fetchall()
+    # return "ll"
     for entry in entries:
         # pass
-        if entry.title==request.form['title']:
-            return render_template('pull_entry.html',entry=entry)
+        return "kk"
+        # if entry[0]==request.form['title']:
+        #     return entry[0]
+            # return render_template('pull_entry.html',entries=entries)
     # return render_template('pull_entry.html', entries=entries)
 
 @app.route('/add', methods=['GET','POST'])

@@ -1,33 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="238c92be-0eba-4387-a573-2f973c04134a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/init.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/sbin/yum_fortran.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/set_kit_path.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prikit/set_kit_path.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/set_kits_paths.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labtools/tmux" afterPath="$PROJECT_DIR$/labkit/labtools/tmux" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikit/remote/freeshell" afterPath="$PROJECT_DIR$/prikit/remote/freeshell" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubkit/init_kit.sh" afterPath="$PROJECT_DIR$/pubkit/init_kit.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labaga/labaga.py" afterPath="$PROJECT_DIR$/labkit/labaga/labaga.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labpub/labconformer.py" afterPath="$PROJECT_DIR$/labkit/labpub/labconformer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labfit/labfb.py" afterPath="$PROJECT_DIR$/labkit/labfit/labfb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labga/labga.py" afterPath="$PROJECT_DIR$/labkit/labga/labga.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labkit_interface.py" afterPath="$PROJECT_DIR$/labkit/labkit_interface.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labpub/labkitpath.py" afterPath="$PROJECT_DIR$/labkit/labpub/labkitpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labdb/labmongo.py" afterPath="$PROJECT_DIR$/labkit/labdb/labmongo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labmm/labrungx.py" afterPath="$PROJECT_DIR$/labkit/labmm/labrungx.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labmm/labrunlammps.py" afterPath="$PROJECT_DIR$/labkit/labmm/labrunlammps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labwebapp/labwebapp.py" afterPath="$PROJECT_DIR$/labkit/labwebapp/labwebapp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubkit/lae" afterPath="$PROJECT_DIR$/pubkit/lae" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikit/linux/outwall_linux.py" afterPath="$PROJECT_DIR$/prikit/linux/outwall_linux.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/pull_entry.html" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/pull_entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labtools/run" afterPath="$PROJECT_DIR$/labkit/labtools/run" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labga/test.py" afterPath="$PROJECT_DIR$/labkit/labga/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/test/test.py" afterPath="$PROJECT_DIR$/labkit/test/test.py" />
+    <list default="true" id="238c92be-0eba-4387-a573-2f973c04134a" name="Default" comment="temp node">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/bowager-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/img/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/img/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/img/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/pages/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/pages/1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/js/a-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/add_user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/app.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/application.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/application_is_successful.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/core-component-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/edit_post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/edit_user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/extract_docx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/github-gist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/handle_application.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/helper_functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/install.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/js/lightbox-2.6.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/css/lightbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/manage_applications.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/css/mdmagick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/js/mdmagick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/mdx_code_multiline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/mdx_github_gists.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/mdx_quote.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/mdx_strike.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/molecule.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/molecule_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/new_application.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/new_post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/pagination.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/platform.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/polymer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/polymer.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/polymer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/post.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/posts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/runtime.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/settings.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/show_applications.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/templates/show_entries_bak.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/static/js/showdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/single_molecule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/single_post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/smb_90.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/users.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/web.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labwebapp/web.wsgi" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labtools/kill" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prikit/outwall/outwall (snode28's conflicted copy 2015-01-18).py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/2DHB.pdb" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/2DHB.pdb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/I3.pdb" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/I3.pdb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/LICENSE-GPL3.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/LICENSE-GPL3.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/LICENSE-LGPL3.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/LICENSE-LGPL3.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/LICENSE.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/README.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/embedding-examplesEN.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/embedding-examplesEN.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/embedding-examplesJA.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/embedding-examplesJA.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/flaskr.db" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/flaskr.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/flaskr.py" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/flaskr.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/js/GLmol.js" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/js/GLmol.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/js/Three49custom.js" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/js/Three49custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/js/jquery-1.7.min.js" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/js/jquery-1.7.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/labwebapp.py" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/labwebapp.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/schema.sql" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/schema.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/2DHB.pdb" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/2DHB.pdb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/I3.pdb" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/I3.pdb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/LICENSE-GPL3.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/LICENSE-GPL3.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/LICENSE-LGPL3.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/LICENSE-LGPL3.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/LICENSE.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/README.txt" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/embedding-examplesEN.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/embedding-examplesEN.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/embedding-examplesJA.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/embedding-examplesJA.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/GLmol.js" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/js/GLmol.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/Three49custom.js" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/js/Three49custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/jquery-1.7.min.js" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/js/jquery-1.7.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/style.css" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/viewer.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/viewer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/layout.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/templates/layout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/pull_entry.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/templates/pull_entry.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/templates/push_entry.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/show_entries.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/templates/show_entries.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/viewer.html" afterPath="$PROJECT_DIR$/labkit/labwebapp-old/static/viewer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikit/remote/front" afterPath="$PROJECT_DIR$/prikit/remote/front" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubkit/github" afterPath="$PROJECT_DIR$/pubkit/github" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/index.html" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikit/mac/ipv6_mac" afterPath="$PROJECT_DIR$/prikit/mac/ipv6_mac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubkit/lhr_alias" afterPath="$PROJECT_DIR$/pubkit/lhr_alias" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/login.html" afterPath="$PROJECT_DIR$/labkit/labwebapp/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikit/outwall/outwall.py" afterPath="$PROJECT_DIR$/prikit/outwall/outwall.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikit/outwall/mac/proxychains.conf" afterPath="$PROJECT_DIR$/prikit/outwall/mac/proxychains.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikit/outwall/mac/sslocal_config.json" afterPath="$PROJECT_DIR$/prikit/outwall/mac/sslocal_config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubkit/wlt.py" afterPath="$PROJECT_DIR$/pubkit/wlt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lhrkits.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,13 +158,14 @@
     <splitter proportion="0.5" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lhrkits$web.coverage" NAME="web Coverage Results" MODIFIED="1430093719244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
     <SUITE FILE_PATH="coverage/lhrkits$nd.coverage" NAME="nd Coverage Results" MODIFIED="1421042036976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/#tmp" />
     <SUITE FILE_PATH="coverage/lhrkits$flaskr__1_.coverage" NAME="flaskr (1) Coverage Results" MODIFIED="1419357297800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/flaskr" />
     <SUITE FILE_PATH="coverage/lhrkits$labmongo.coverage" NAME="labmongo Coverage Results" MODIFIED="1419350110584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labdb" />
     <SUITE FILE_PATH="coverage/lhrkits$labpub.coverage" NAME="labpub Coverage Results" MODIFIED="1419343054861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labpub" />
-    <SUITE FILE_PATH="coverage/lhrkits$test.coverage" NAME="test Coverage Results" MODIFIED="1419350334671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labga" />
+    <SUITE FILE_PATH="coverage/lhrkits$test.coverage" NAME="test Coverage Results" MODIFIED="1429779906829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
     <SUITE FILE_PATH="coverage/lhrkits$flaskr.coverage" NAME="flaskr Coverage Results" MODIFIED="1419356935215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
-    <SUITE FILE_PATH="coverage/lhrkits$labwebapp.coverage" NAME="labwebapp Coverage Results" MODIFIED="1420490599243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
+    <SUITE FILE_PATH="coverage/lhrkits$labwebapp.coverage" NAME="labwebapp Coverage Results" MODIFIED="1429261118413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
     <SUITE FILE_PATH="coverage/lhrkits$aga.coverage" NAME="aga Coverage Results" MODIFIED="1419292192583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labaga" />
     <SUITE FILE_PATH="coverage/lhrkits$labkit_interface.coverage" NAME="labkit_interface Coverage Results" MODIFIED="1419344022621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit" />
     <SUITE FILE_PATH="coverage/lhrkits$mongotest.coverage" NAME="mongotest Coverage Results" MODIFIED="1419294773345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labdb" />
@@ -81,108 +193,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="labwebapp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/labwebapp.py">
+      <file leaf-file-name="new_application.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/new_application.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="2907">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="357" max-vertical-offset="1513">
+              <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="714">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_applications.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/show_applications.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39187706" vertical-offset="782" max-vertical-offset="4148">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/web.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.346154" vertical-offset="1193" max-vertical-offset="18071">
+              <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
               <folding>
-                <element signature="e#240#277#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flaskr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/flaskr.py">
+      <file leaf-file-name="molecule.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/molecule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1870">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="1751">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smb_90.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/smb_90.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2346">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
-                <element signature="e#240#277#0" expanded="true" />
+                <element signature="e#153#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="labga.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labkit/labga/labga.py">
+      <file leaf-file-name="extract_docx.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/extract_docx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1326">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1921">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
-                <element signature="e#467#492#0" expanded="true" />
+                <element signature="e#153#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labkit/test/test.py">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2668428" vertical-offset="172" max-vertical-offset="952">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nd (lhr-mbp's conflicted copy 2015-01-12).py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubkit/nd (lhr-mbp's conflicted copy 2015-01-12).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nd (lhr-mbp's conflicted copy 2015-01-12 (2)).py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubkit/nd (lhr-mbp's conflicted copy 2015-01-12 (2)).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="2754">
-              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labkit/readme.md">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="push_entry.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1292">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -195,42 +287,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/labkit/labpub/labmongo.py" />
-        <option value="$PROJECT_DIR$/labkit/labmm/labrunmd.py" />
-        <option value="$PROJECT_DIR$/labkit/labfit/labft.py" />
-        <option value="$PROJECT_DIR$/labkit/labfit/labfb.py" />
-        <option value="$PROJECT_DIR$/labkit/labmm/labpdb.py" />
-        <option value="$PROJECT_DIR$/labkit/labmm/labrunlammps.py" />
-        <option value="$PROJECT_DIR$/_ref/cx/mrun/labrungx.py" />
-        <option value="$PROJECT_DIR$/pubkit/mypub.py" />
-        <option value="$PROJECT_DIR$/set_kits_paths.sh" />
-        <option value="$PROJECT_DIR$/pubkit/set_kit_path.sh" />
-        <option value="$PROJECT_DIR$/prikit/set_kit_path.sh" />
-        <option value="$PROJECT_DIR$/labkit/labpub/labpub.py" />
-        <option value="$PROJECT_DIR$/labkit/labmm/labrungx.py" />
-        <option value="$PROJECT_DIR$/labkit/set_kit_path.sh" />
-        <option value="$PROJECT_DIR$/labkit/labpub/labkitpath.py" />
-        <option value="$PROJECT_DIR$/labkit/labkit_interface.py" />
-        <option value="$PROJECT_DIR$/labkit/labmm/__init__.py" />
-        <option value="$PROJECT_DIR$/labkit/labpub/__init__.py" />
-        <option value="$PROJECT_DIR$/labkit/labaga/labaga.py" />
-        <option value="$PROJECT_DIR$/labkit/labdb/labmongo.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/application.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/templates/manage_applications.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/mysendmail.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/LICENSE" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/templates/settings.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/templates/new_application.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/templates/single_post.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/templates/handle_application.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/templates/index.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/settings.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/templates/install.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/config.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp-bak/web.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/labwebapp.wsig" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/web.wsig" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/web.wsgi" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/application_successful.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/Application_is_successful.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/pages/1.md" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/pages/1.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/static/css/bootstrap.min_bak.css" />
         <option value="$PROJECT_DIR$/labkit/labwebapp/templates/index.html" />
-        <option value="$PROJECT_DIR$/labkit/flaskr/flaskr.py" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/push.html" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/pull.html" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/show_entries.html" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/pull_entry.html" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/layout.html" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/flaskr.py" />
-        <option value="$PROJECT_DIR$/labkit/labpub/labconformer.py" />
-        <option value="$PROJECT_DIR$/labkit/labga/test.py" />
-        <option value="$PROJECT_DIR$/labkit/readme.md" />
-        <option value="$PROJECT_DIR$/labkit/labga/labga.py" />
-        <option value="$PROJECT_DIR$/labkit/labwebapp/labwebapp.py" />
-        <option value="$PROJECT_DIR$/pubkit/nd.py" />
-        <option value="$PROJECT_DIR$/labkit/test/test.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/404.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/head.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/new_post.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/posts.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/preview.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/settings.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/sidebar.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/single_post.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/test.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/post.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/molecule_list.html" />
+        <option value="$USER_HOME$/anaconda/lib/python2.7/socket.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/extract_docx.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/footer.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/application_is_successful.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/install.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/edit_post.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/new_application.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/handle_application.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/single_molecule.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/mysendmail.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/nav.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/show_applications.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/application.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/web.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/smb_90.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/molecule.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/config.py" />
       </list>
     </option>
   </component>
@@ -243,8 +350,40 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="957" />
-    <option name="height" value="877" />
+    <option name="width" value="1906" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -271,6 +410,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,15 +418,13 @@
               <option name="myItemId" value="lhrkits" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lhrkits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lhrkits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="&lt; Python 2.7.8 (~/anaconda/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -296,24 +434,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lhrkits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lhrkits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lhrkits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prikit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,17 +447,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prikit" />
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mac" />
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labwebapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labwebapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -348,11 +557,11 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/_pr/scikit-learn-0.14.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/labkit/labwebapp/env/bin/python" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -373,81 +582,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/labkit/labaga" />
+      <recent name="$PROJECT_DIR$/labkit/labwebapp" />
+      <recent name="$PROJECT_DIR$/labkit/labwebapp/templates" />
+      <recent name="$PROJECT_DIR$/labkit/labwebapp/pages" />
+      <recent name="$PROJECT_DIR$/labkit/labwebapp-bak" />
+      <recent name="$PROJECT_DIR$/labkit/labwebapp-bak/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/labkit" />
       <recent name="$PROJECT_DIR$/labkit/labdb" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nd">
-    <configuration default="false" name="labwebapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labwebapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="lhrkits" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labwebapp/labwebapp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="flaskr (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/flaskr" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="lhrkits" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/flaskr/flaskr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="labconformer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labpub" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="lhrkits" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labpub/labconformer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.web">
     <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -478,6 +631,72 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pubkit/nd.py" />
       <option name="PARAMETERS" value="Untitled.ipynb" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="web" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labwebapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labwebapp/web.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="labwebapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="ssh://lhr@sfront:22/public/lhr/anaconda/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labwebapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labwebapp/web.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labwebapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labwebapp/extract_docx.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -887,19 +1106,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.labwebapp" />
-      <item index="1" class="java.lang.String" itemvalue="Python.flaskr (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.labconformer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.nd" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.nd" />
+      <item index="2" class="java.lang.String" itemvalue="Python.web" />
+      <item index="3" class="java.lang.String" itemvalue="Python.labwebapp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.nd" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.labconformer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.labwebapp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.flaskr (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.web" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.labwebapp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.nd" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -936,11 +1155,31 @@
       <workItem from="1422024110264" duration="661000" />
       <workItem from="1422088044448" duration="664000" />
       <workItem from="1422360455300" duration="36000" />
+      <workItem from="1422720257208" duration="532000" />
+      <workItem from="1423116931560" duration="14000" />
+      <workItem from="1423117182916" duration="139000" />
+      <workItem from="1423227077538" duration="115000" />
+      <workItem from="1426936799799" duration="7129000" />
+      <workItem from="1427101986039" duration="2281000" />
+      <workItem from="1427105142476" duration="92000" />
+      <workItem from="1427105247694" duration="196000" />
+      <workItem from="1427105517875" duration="411000" />
+      <workItem from="1427106753414" duration="3145000" />
+      <workItem from="1427616553469" duration="2356000" />
+      <workItem from="1427941743069" duration="26799000" />
+      <workItem from="1428644126545" duration="2422000" />
+      <workItem from="1429016133509" duration="73911000" />
+      <workItem from="1429274273851" duration="8663000" />
+      <workItem from="1429501274679" duration="3568000" />
+      <workItem from="1429515393678" duration="315000" />
+      <workItem from="1429515724280" duration="25419000" />
+      <workItem from="1429713952124" duration="32320000" />
+      <workItem from="1429858897141" duration="40764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75077000" />
+    <option name="totallyTimeSpent" value="305668000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -963,40 +1202,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="957" height="877" extended-state="0" />
-    <editor active="false" />
+    <frame x="4" y="23" width="1906" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36373058" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32642487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3566334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21018651" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5233645" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20684735" sideWeight="0.50051814" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13575129" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30601093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15665236" sideWeight="0.49948186" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35085836" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="1100" y="165" width="363" height="773" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="255" y="202" width="536" height="451" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35409835" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19949174" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35737705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4041451" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="255" y="202" width="536" height="451" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5233645" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13575129" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1398079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20971185" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="1100" y="165" width="363" height="773" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5233161" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32642487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3569904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21018651" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1013,10 +1284,19 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="temp node" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/labkit/labwebapp/web.py</url>
+          <line>409</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1029,405 +1309,399 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/labkit/_ref/lv/makeapot">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4760">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/readme.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1333333" vertical-offset="0" max-vertical-offset="391">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8333333" vertical-offset="0" max-vertical-offset="204">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/static/js/a-tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="42" column="2712" selection-start-line="42" selection-start-column="2712" selection-end-line="42" selection-end-column="2712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/static/img/loading.gif">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/show_entries.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/static/img/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/static/img/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1360">
-          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.33737597" vertical-offset="867" max-vertical-offset="2176">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/edit_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1292">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="5.1538463" vertical-offset="406" max-vertical-offset="1343">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1159" max-vertical-offset="3196">
+          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/post.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.27214515" vertical-offset="0" max-vertical-offset="3196">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1292">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2431">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labmm/labpdb.py">
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44183564" vertical-offset="3343" max-vertical-offset="9792">
+          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labmm/labrunlammps.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/pagination.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labmm/labrungx.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="735">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
+          <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labpub/labconformer.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubkit/mypub.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/edit_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1275">
-          <caret line="11" column="0" selection-start-line="7" selection-start-column="1" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.076923" vertical-offset="415" max-vertical-offset="1326">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labpub/labkitpath.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/application_is_successful.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="1200">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="19" />
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="697">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/labwebapp.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/add_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#240#277#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-7.269231" vertical-offset="236" max-vertical-offset="1173">
+          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labfit/labfb.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="374">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/example_c/ga.in">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/install.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labaga/aga.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labmm/labrunlammps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubkit/mypub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="11" column="0" selection-start-line="7" selection-start-column="1" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labmm/labrungx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="840">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labmm/labpdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labpub/labkitpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="585">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labkit_interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="630">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labmm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labpub/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labaga/labaga.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1140">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labdb/mongotest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="35" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labdb/labmongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1455">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32215" max-vertical-offset="59160">
-          <caret line="53" column="134" selection-start-line="53" selection-start-column="130" selection-end-line="53" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/flaskr/flaskr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="1836">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        <state vertical-scroll-proportion="-19.038462" vertical-offset="202" max-vertical-offset="1462">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/molecule_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state vertical-scroll-proportion="4.5" vertical-offset="304" max-vertical-offset="1241">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/pull_entry.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/new_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1309">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state vertical-scroll-proportion="-21.653847" vertical-offset="355" max-vertical-offset="1292">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/show_entries.html">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/single_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1360">
-          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="663">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/flaskr.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1870">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="816">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.5" vertical-offset="119" max-vertical-offset="1088">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/preview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="901">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.461538" vertical-offset="304" max-vertical-offset="1241">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/handle_application.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="901">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/single_molecule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="731">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
-            <element signature="e#240#277#0" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labpub/labconformer.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/mysendmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9318637" vertical-offset="436" max-vertical-offset="1088">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labga/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5230461" vertical-offset="589" max-vertical-offset="1088">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1241">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/readme.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubkit/minus_dir.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="907">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubkit/mysendmail.py">
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/flask_mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prikit/mac/downlevel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prikit/mac/mytex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3417">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prikit/mac/makemd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26844263" vertical-offset="4969" max-vertical-offset="6222">
-          <caret line="310" column="26" selection-start-line="310" selection-start-column="26" selection-end-line="310" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubkit/nd (lhr-mbp's conflicted copy 2015-01-12).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.40554962" vertical-offset="7100" max-vertical-offset="9996">
+          <caret line="440" column="32" selection-start-line="440" selection-start-column="32" selection-end-line="440" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubkit/nd (lhr-mbp's conflicted copy 2015-01-12 (2)).py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/manage_applications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2754">
-          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="374" max-vertical-offset="1496">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="731">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/push_entry.html">
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sphinx/addnodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1292">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3327645" vertical-offset="1488" max-vertical-offset="3179">
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/pymongo/mongo_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3329776" vertical-offset="5485" max-vertical-offset="25313">
+          <caret line="368" column="0" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/werkzeug/contrib/fixers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31483456" vertical-offset="2085" max-vertical-offset="4199">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/pymongo/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2476" max-vertical-offset="3825">
+          <caret line="181" column="70" selection-start-line="181" selection-start-column="70" selection-end-line="181" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1538463" vertical-offset="275" max-vertical-offset="4845">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubkit/nd.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/new_application.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77602106" vertical-offset="1553" max-vertical-offset="2805">
-          <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="357" max-vertical-offset="1513">
+          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labga/labga.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1326">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="714">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/smb_90.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2346">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
-            <element signature="e#467#492#0" expanded="true" />
+            <element signature="e#153#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/labwebapp.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/molecule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="2907">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="1751">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.346154" vertical-offset="1193" max-vertical-offset="18071">
+          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
           <folding>
-            <element signature="e#240#277#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labkit/test/test.py">
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2668428" vertical-offset="172" max-vertical-offset="952">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/extract_docx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1921">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#153#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labwebapp/templates/show_applications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39187706" vertical-offset="782" max-vertical-offset="4148">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>

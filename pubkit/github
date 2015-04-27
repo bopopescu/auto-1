@@ -13,18 +13,18 @@ if [[ x$1 == xnew ]]; then
     touch README.md
     git add .
     git commit -m "first commit"
-    if  ! (git remote -v|grep origin) ;then
-        git remote add origin git@github.com:lhrkkk/$reponame.git
+    if  ! (git remote -v|grep lhr_github) ;then
+        git remote add lhr_github git@github.com:lhrkkk/$reponame.git
     fi
-    git push -u origin master
+    git push -u lhr_github master
 elif [[ x$1 == xpush ]]; then
     # push to gitlab
-    if  ! (git remote -v|grep origin) ;then
-        git remote add origin git@github.com:lhrkkk/$reponame.git
+    if  ! (git remote -v|grep lhr_github) ;then
+        git remote add lhr_github git@github.com:lhrkkk/$reponame.git
     fi
-    git push -u origin master
+    git push -u lhr_github master
 elif [[ x$1 == xpull ]]; then
-    git pull origin master
+    git pull lhr_github master
 fi
 
 

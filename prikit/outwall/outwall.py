@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sh,os,sys
+import os,sys
+
+# important! pliase
+outwall_dir="$HOME/lhrkits/prikit/outwall/"
 
 
 
@@ -17,27 +20,27 @@ def outwall():
         try:
             # sh.grep(sh.ps('ux'),'sslocal')
             if not os.popen('ps ux|grep sslocal|grep -v grep').read():
-                os.system("sslocal -c $HOME/lhrkits/prikit/outwall/mac/sslocal_config.json &")
+                os.system("sslocal -c "+outwall_dir+"mac/sslocal_config.json &")
         except Exception, e:
             pass
         finally:
 
             command_string=' '.join(sys.argv[1:])
             print command_string
-            os.system("$HOME/lhrkits/prikit/outwall/mac/proxychains/proxychains4  -f $HOME/lhrkits/prikit/outwall/mac/proxychains.conf "+command_string )
+            os.system(outwall_dir+"/mac/proxychains/proxychains4  -f "+outwall_dir+"mac/proxychains.conf "+command_string )
 
     elif sys.platform.find('linux')!=-1:
         try:
             # sh.grep(sh.ps('ux'),'sslocal')
             if not os.popen('ps ux|grep sslocal|grep -v grep').read():
-                os.system("sslocal -c $HOME/lhrkits/prikit/outwall/linux/sslocal_config.json &")
+                os.system("sslocal -c "+outwall_dir+"linux/sslocal_config.json &")
         except Exception, e:
             pass
         finally:
 
             command_string=' '.join(sys.argv[1:])
             print command_string
-            os.system("$HOME/lhrkits/prikit/outwall/linux/proxychains/proxychains4  -f $HOME/lhrkits/prikit/outwall/linux/proxychains.conf "+command_string )
+            os.system(outwall_dir+"linux/proxychains/proxychains4  -f "+outwall_dir+"/linux/proxychains.conf "+command_string )
 
 def main():
     outwall()
