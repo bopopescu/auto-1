@@ -2,32 +2,62 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import os
-def set_root_logger():
-    filename=os.path.basename(__file__)+'.rootlog'
-
-    logging.basicConfig(filename=filename, level = logging.WARN, filemode = 'w', format = '%(asctime)s - %(levelname)s: %(message)s')
+import os,sys
 
 
-def default_logger():
-    logger=set_logger(level=logging.WARN)
-    return logger
+def get_script_name(__file__):
+    # return os.path.basename(sys.argv[0])
+    return os.path.split(os.path.realpath(__file__))[1]
 
-def set_logger(logname='mylog', console=True, filename=False,level = logging.DEBUG,filemode='w'):
+def get_script_location(__file__):
+    "必须在当前文件中, 如果是从外面import进来, 则返回的是import的那个脚本的路径"
+    return os.path.split(os.path.realpath(__file__))[0]
+
+def echo_methods(self):
+    """ 输出类中所有的方法，以及doc 文档 """
+    print "\n Method List: "
+    for attrName in dir(self):
+        attr = getattr(self,attrName)
+        if callable(attr):
+            print attrName,"():",attr.__doc__
+
+def echo_attributes(self):
+    print "\n Attributes"
+    for name in dir(self):
+        attr = getattr(self,attr)
+        if not callable(attr):
+            print name,":",attr
 
 
+def set_root_logger(level = logging.INFO, filename=None,filemode = 'w', format = '%(asctime)s - %(levelname)s: %(message)s'):
+    # filename=os.path.basename(__file__)+'.rootlog'
+    logging.basicConfig( level = level, filename=None, filemode = filemode, format = format)
 
+def clear_logger(logger):
+    logger.handlers=[]
+
+def get_logger(level = logging.WARNING,logname='mylog', console=True, filename=False,filemode='w'):
     # 创建一个logger
+
+    if type(level) is str:
+        if level == 'DEBUG':
+            level = logging.DEBUG
+        elif level == 'INFO':
+            level = logging.INFO
+        elif level == 'WARNING':
+            level = logging.WARNING
+        elif level == 'ERROR':
+            level = logging.ERROR
+        elif level == 'CRITICAL':
+            level = logging.CRITICAL
+
     logger = logging.getLogger(logname)
     logger.setLevel(level)
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
+    # formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s')
+    formatter = logging.Formatter('%(levelname)s:[%(filename)s:%(lineno)s - %(funcName)20s() ]  %(message)s')
 
     if filename:
         # 创建一个handler，用于写入日志文件
-
-        # filename=os.path.basename(__file__)+'.log'
-        # print filename
         fh = logging.FileHandler(filename,mode=filemode)
         fh.setLevel(level)
         fh.setFormatter(formatter)
@@ -41,13 +71,8 @@ def set_logger(logname='mylog', console=True, filename=False,level = logging.DEB
         logger.addHandler(ch)
     return logger
 
-mylog=set_logger
-def main():
-    logger=set_logger(logname="mylog",filename=False, level=logging.DEBUG)
-    # set_root_logger()
-    # logger.debug('ccd')
-
 if __name__ == '__main__':
-    main()
-
-
+    log=get_logger()
+    # log=logging.getLogger('root')
+    set_root_logger()
+    log.debug("haha")

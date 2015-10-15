@@ -1,1 +1,0 @@
-find `pwd` -maxdepth 1 |grep '.txt$'>mainlist

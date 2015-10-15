@@ -1,0 +1,3 @@
+cd /Users/lhr/_env/vpn/ustc_scc_vpn/
+
+sudo  openvpn --config ./ustc-scc.ovpn

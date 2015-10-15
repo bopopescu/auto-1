@@ -1,0 +1,4 @@
+[submodule "labkit"]
+    path = labkit
+    url = https://github.com/lhrkkk/labkit.git
+  ignore = dirty

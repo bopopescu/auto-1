@@ -1,0 +1,24 @@
+# translate the out file to Gaussian input file
+# $1: outfile  
+# $2: the headwords of input file
+# headwords of input file in /labsuit/etc/headfile_out-txt
+
+gout=$1
+gtxt=${gout%.*}.txt
+
+if [ $# == 1 ]
+then 
+    cat `getbinpath`/../etc/headfile_out-txt>$gtxt
+else if [ $# == 2 ]
+then
+    cat $2>$gtxt
+else
+    echo "Error input!"
+    exit
+fi
+fi
+
+getxyz $gout>>$gtxt
+echo >>$gtxt
+echo >>$gtxt
+

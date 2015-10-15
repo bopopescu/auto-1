@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # test args
 if [ ! ${#} -ge 2 ]; then

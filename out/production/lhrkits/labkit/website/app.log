@@ -1,0 +1,976 @@
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 125, in download_zip
+    os.chdir(moleculeClass.path+title)
+OSError: [Errno 2] No such file or directory: 'databank1-A-Neutral'
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 125, in download_zip
+    os.chdir(moleculeClass.path+title)
+OSError: [Errno 2] No such file or directory: 'databank1-A-Neutral'
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 125, in download_zip
+    os.chdir(moleculeClass.path)
+OSError: [Errno 2] No such file or directory: 'databank1-A-Neutral'
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 135, in download_zip
+    # print file
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-A-Neutral [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /molecule/download/1-M-N [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 134, in download_zip
+    try:
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /accept/G6AELU4SXZ39 [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 289, in accept
+    file = open(archivefile,'r')
+TypeError: coercing to Unicode: need string or buffer, file found
+Exception on /applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 529, in manage_applications
+    return render_template('manage_applications.html', default_settings=app.config,applications=applications['data'], pagination=pag, meta_title='applications')
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/manage_applications.html", line 1, in top-level template code
+    {%- extends 'index.html' -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/index.html", line 7, in top-level template code
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/index.html", line 7, in block "nav"
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/nav.html", line 10, in top-level template code
+    <li><a href="{{ url_for('show_applications') }}">Show Applications</a></li>
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 312, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1641, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 305, in url_for
+    force_external=external)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/werkzeug/routing.py", line 1616, in build
+    raise BuildError(endpoint, values, method)
+BuildError: ('show_applications', {}, None)
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 93, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 7, in top-level template code
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 7, in block "nav"
+    {%- block nav -%}{%- include 'nav.html' -%}{%- endblock -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/nav.html", line 10, in top-level template code
+    <li><a href="{{ url_for('show_applications') }}">Show Applications</a></li>
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 312, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1641, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/helpers.py", line 305, in url_for
+    force_external=external)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/werkzeug/routing.py", line 1616, in build
+    raise BuildError(endpoint, values, method)
+BuildError: ('show_applications', {}, None)
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 10, in top-level template code
+    {%- block body -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 13, in block "body"
+    {{ app.config['MOLECULE_LIST_DESCRIPTION']|markdown }}
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 397, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'app' is undefined
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 10, in top-level template code
+    {%- block body -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 13, in block "body"
+    {{ app.config['MOLECULE_LIST_DESCRIPTION']|markdown }}
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 397, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'app' is undefined
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 10, in top-level template code
+    {%- block body -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 13, in block "body"
+    {{ default_settings['MOLECULE_LIST_DESCRIPTION']|markdown }}
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flaskext/markdown.py", line 69, in __call__
+    return Markup(self._instance.convert(stream))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/markdown/__init__.py", line 329, in convert
+    if not source.strip():
+UndefinedError: 'flask.config.Config object' has no attribute 'MOLECULE_LIST_DESCRIPTION'
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 10, in top-level template code
+    {%- block body -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 13, in block "body"
+    {{ default_settings['MOLECULE_LIST_DESCRIPTION']|markdown }}
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flaskext/markdown.py", line 69, in __call__
+    return Markup(self._instance.convert(stream))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/markdown/__init__.py", line 329, in convert
+    if not source.strip():
+UndefinedError: 'flask.config.Config object' has no attribute 'MOLECULE_LIST_DESCRIPTION'
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 10, in top-level template code
+    {%- block body -%}
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 13, in block "body"
+    {{ default_settings['MOLECULE_LIST_DESCRIPTION']|markdown }}
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flaskext/markdown.py", line 69, in __call__
+    return Markup(self._instance.convert(stream))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/markdown/__init__.py", line 329, in convert
+    if not source.strip():
+UndefinedError: 'flask.config.Config object' has no attribute 'MOLECULE_LIST_DESCRIPTION'
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 4, in template
+    {%- block body -%}
+TemplateAssertionError: block 'body' defined twice
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 4, in template
+    {%- block body -%}
+TemplateAssertionError: block 'body' defined twice
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 4, in template
+    {%- block body -%}
+TemplateAssertionError: block 'body' defined twice
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 4, in template
+    {%- block body -%}
+TemplateAssertionError: block 'body' defined twice
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 4, in template
+    {%- block body -%}
+TemplateAssertionError: block 'body' defined twice
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 4, in template
+    {%- block body -%}
+TemplateAssertionError: block 'body' defined twice
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 4, in template
+    {%- block body -%}
+TemplateAssertionError: block 'body' defined twice
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 78, in template
+    {%- endblock -%}
+TemplateSyntaxError: Encountered unknown tag 'endblock'.
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/web.py", line 94, in molecule_list
+    return render_template('molecule_list.html', default_settings=app.config,molecules=molecules['data'], pagination=pag, meta_title=app.config['BLOG_TITLE'])
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/lhrkits/labkit/labwebapp/templates/molecule_list.html", line 78, in template
+    {%- endblock -%}
+TemplateSyntaxError: Encountered unknown tag 'endblock'.
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 93, in molecule_list
+    count = moleculeClass.get_total_count()
+  File "/Users/lhr/lhrkits/labkit/src/website/molecule.py", line 82, in get_total_count
+    return len(filter(os.path.isdir,map(lambda x: os.path.join(self.path,x), os.listdir(self.path))))
+OSError: [Errno 2] No such file or directory: 'databank'
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 92, in molecule_list
+    count = moleculeClass.get_total_count()
+  File "/Users/lhr/lhrkits/labkit/src/website/molecule.py", line 82, in get_total_count
+    return len(filter(os.path.isdir,map(lambda x: os.path.join(self.path,x), os.listdir(self.path))))
+OSError: [Errno 2] No such file or directory: 'databank'
+Exception on /molecule_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 92, in molecule_list
+    count = moleculeClass.get_total_count()
+  File "/Users/lhr/lhrkits/labkit/src/website/molecule.py", line 82, in get_total_count
+    return len(filter(os.path.isdir,map(lambda x: os.path.join(self.path,x), os.listdir(self.path))))
+OSError: [Errno 2] No such file or directory: 'databank'
+Exception on /show_applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 547, in show_applications
+    applications=sorted(application,lambda s:s['count'])
+TypeError: 'module' object is not iterable
+Exception on /show_applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 547, in show_applications
+    # applications=sorted(application,lambda s:s['count'])
+TypeError: 'module' object is not iterable
+Exception on /show_applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 547, in show_applications
+    # applications=sorted(application,lambda s:s['count'])
+TypeError: 'module' object is not iterable
+Exception on /show_applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 547, in show_applications
+    # applications=sorted(application,lambda s:s['count'])
+TypeError: 'module' object is not iterable
+Exception on /show_applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 547, in show_applications
+    # applications=sorted(application,lambda s:s['count'])
+TypeError: 'module' object is not iterable
+Exception on /show_applications_list [GET]
+Traceback (most recent call last):
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lhr/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lhr/lhrkits/labkit/src/website/helper_functions.py", line 49, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/lhr/lhrkits/labkit/src/website/website.py", line 547, in show_applications
+    # applications=sorted(application,lambda s:s['count'])
+TypeError: 'module' object is not iterable

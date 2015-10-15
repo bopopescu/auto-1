@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 
 kit_dir_name=$HOME/lhrkits/pubkit/

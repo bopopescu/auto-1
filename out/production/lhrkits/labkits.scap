@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="A5FBA584-AB4F-49A6-A022-A3ECBF86DEA7">
+    <Notes>
+        <Note ID="67" FontSize="12.0" Position="614.594024,177.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mongodb</String>
+            <ConnectedNoteIDs>94, 106</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="168.0,317.0" Width="135.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>client程序, 通过pbs提交</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="167.0,344.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>server, 一直运行</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="168.0,372.0" Width="111.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>通信, 使用eventlet</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="841.564143,339.92271" Width="48.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>基因算法</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="552.063349,299.841833" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>构型对象</String>
+            <ConnectedNoteIDs>76, 106, 116, 119</ConnectedNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="338.456386,217.578298" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>构型生成</String>
+            <ConnectedNoteIDs>119</ConnectedNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="336.862362,255.578298" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>构型处理</String>
+            <ConnectedNoteIDs>119</ConnectedNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="463.0,338.0" Width="83.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>各种meta方法</String>
+            <ConnectedNoteIDs>73, 84-85, 104</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="739.0,350.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>算法</String>
+            <ConnectedNoteIDs>72, 80, 86, 110, 116</ConnectedNoteIDs>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="846.564143,415.92271" Width="29.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>aga</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="517.0,400.0" Width="28.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mm</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="471.0,400.0" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>qm</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="853.564143,382.92271" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>fit</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="303.0,356.0" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>labdist</String>
+            <ConnectedNoteIDs>68, 70-71, 104</ConnectedNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="609.068525,138.0" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>labwebapp</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="104" FontSize="12.0" Position="385.0,349.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>进程</String>
+            <ConnectedNoteIDs>76, 92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="106" FontSize="12.0" Position="606.407565,228.170519" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>数据模型映射</String>
+            <ConnectedNoteIDs>67, 73</ConnectedNoteIDs>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="738.050997,258.397212" Width="47.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>sample</String>
+            <ConnectedNoteIDs>109, 112-114, 116</ConnectedNoteIDs>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="836.435857,209.290042" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>角度限制</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="822.316334,443.247809" Width="26.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>sys</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="112" FontSize="12.0" Position="836.435857,235.290042" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>随机抽样</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="113" FontSize="12.0" Position="836.435857,261.290042" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>蒙特卡罗</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="114" FontSize="12.0" Position="836.435857,287.290042" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>贝叶斯</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="668.961355,299.790836" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>构型系综</String>
+            <ConnectedNoteIDs>73, 78, 108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="119" FontSize="12.0" Position="472.683666,251.444621" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>构型操作</String>
+            <ConnectedNoteIDs>73-75</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="107" Sticky="No" Position="447.405976,215.594024" Width="381.0" Height="225.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <Stacks>
+        <Stack>109, 112-114</Stack>
+    </Stacks>
+    <AutoFit>67-68, 70, 73-76, 78, 80, 84-86, 92, 94, 104, 106, 108-110, 112-114, 116, 119</AutoFit>
+    <NoteStyles>
+        <Style Name="Blue Bubble" ID="696E578C-D1A3-49F2-916F-CC8D2D84C9D0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="F0EA8494-91BE-49B1-A549-729E88539201" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="B52EF2E1-E4B8-47A2-8A11-C53DD23CC920" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="F7246C6E-2F9F-4C0A-910D-E61F6A6812ED" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="4EE0247B-4F36-4706-ABB8-650741094D67" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="CFC22723-636C-4DF9-9A8D-E132BDE055D0" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Yellow Bubble" ID="0DD809FD-2F35-4A99-96BE-477C5254F54A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

@@ -1,0 +1,82 @@
+{%- extends 'index.html' -%}
+{%- block body -%}
+	<div class="post">
+		<div class="row">
+			<div class="col-lg-12">
+				{%- if applications -%}
+					<div class="page-header">
+						<h2>Applications</h2>
+					</div>
+					<div class="content">
+						{%- with messages = get_flashed_messages(with_categories=True) -%}
+		                    {%- if messages -%}
+		                        {%- for category, message in messages -%}
+		                            <div class="response">
+		                                <span class="message {{ category }}">{%- if category == 'success' -%}✔{%- endif -%}&nbsp;{{ message }}</span>
+		                            </div>
+		                        {%- endfor -%}
+		                    {%- endif -%}
+		                {%- endwith -%}
+						<table class="table table-striped">
+							<tr>
+								<th>Molecule</th>
+								<th>Applicant</th>
+								<th>Email address</th>
+								<th>Date applied</th>
+								<!--<th>Status</th>-->
+								<th>Status</th>
+								<th></th>
+								<th></th>
+							</tr>
+							{%- for application in applications -%}
+							<tr>
+								<td><a title="Preview" href="{{ url_for('handle_application', permalink=application['permalink']) }}" data-target="_blank">{{ application['title'] | safe }}</a></td>
+								<td>{{ application['applicant'] |safe }}</td>
+								<td>{{ application['email'] |safe }}</td>
+								<td>{{ application['date'] |formatdate }}</td>
+
+									{%- if applications|length >= 1 -%}&nbsp;&nbsp;
+									{% if not application.get('status',None) %}
+									<td><a title="Accept" href="{{ url_for('accept', permalink=application['permalink'])  }}" class="response btn btn-4primary" target="_blank">Accept</a></td>
+									<td><a title="Decline" href="{{ url_for('decline', permalink=application['permalink']) }}" class="response btn btn-primary">Decline</a></td>
+
+									{% elif application.get('status',None)=='Accepted' %}
+									<td>Accepted</td>
+									<td></td>
+									{% elif application.get('status',None)=='Declined' %}
+									<td></td>
+									<td>Declined</td>
+									{%- endif -%}
+									<td><a title="Delete" href="{{ url_for('application_del', id=application['id']) }}" class="icon-remove-sign bigger icon"></a></td>
+									{%- endif -%}
+
+							</tr>
+							{%- endfor -%}
+						</table>
+					</div>
+				{%- else -%}
+					<div class="page-header">
+						<h1>applications not found..</h1>
+					</div>
+				{%- endif -%}
+		    </div>
+			{% if pagination and pagination.pages > 1 %}
+			<div class="pagination-wrap">
+				<ul class="pagination">
+					{% for page in pagination.iter_pages() %}
+					{% if page %}
+					<li {% if page == pagination.page %}class="active"{% endif %}><a href="{{ url_for_other_page(page) }}">{{ page }}</a></li>
+					{% else %}
+					<li><span class=ellipsis>…</span></li>
+					{% endif %}
+					{% endfor %}
+					{% if pagination.has_next %}
+					<li><a href="{{ url_for_other_page(pagination.page + 1)
+						      }}">&raquo;</a></li>
+					{% endif %}
+				</ul>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+{%- endblock -%}

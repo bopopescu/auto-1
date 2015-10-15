@@ -1,0 +1,16 @@
+REMARK   Accelrys Discovery Studio PDB file
+REMARK   Created:  Sun Jun 21 00:23:32 中国标准时间 2015
+ATOM      1  N   ALA A   1       7.326  -0.783   1.199  1.00 20.00           N1+
+ATOM      2  CA  ALA A   1       7.113  -0.367  -0.191  1.00 20.00           C  
+ATOM      3  C   ALA A   1       7.199   1.123  -0.305  1.00 20.00           C  
+ATOM      4  O   ALA A   1       7.648   1.859   0.744  1.00 20.00           O  
+ATOM      5  CB  ALA A   1       5.743  -0.827  -0.712  1.00 20.00           C  
+ATOM      6  OXT ALA A   1       6.826   1.737  -1.455  1.00 20.00           O  
+ATOM      7  HA  ALA A   1       7.874  -0.818  -0.843  1.00 20.00           H  
+ATOM      8  HB1 ALA A   1       5.624  -0.506  -1.758  1.00 20.00           H  
+ATOM      9  HB2 ALA A   1       4.950  -0.377  -0.098  1.00 20.00           H  
+ATOM     10  HT2 ALA A   1       6.601  -0.361   1.796  1.00 20.00           H  
+ATOM     11  HT3 ALA A   1       8.255  -0.468   1.512  1.00 20.00           H  
+ATOM     12  H12 ALA A   1       6.879   2.689  -1.528  1.00  0.00           H  
+TER      13      ALA A   1 
+END

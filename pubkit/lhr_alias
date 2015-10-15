@@ -1,6 +1,14 @@
 
 lhrkits=$HOME/lhrkits
 
+
+alias v='vagrant'
+alias git='hub'
+# alias t='tmux attach'
+
+alias t='python /Users/lhr/_action/stock/stock/common/shell_task.py'
+
+alias pubrc='cd $yadr/pubrc'
 alias pubkit='cd $lhrkits/pubkit'
 alias mac='cd $lhrkits/prikit/mac'
 alias linux='cd $lhrkits/prikit/linux'

@@ -1,0 +1,47 @@
+{%- extends 'index.html' -%}
+{%- block head -%}{%- include 'head.html' -%}{%- block additional_css -%}<link href="{{ url_for('static', filename='css/lightbox.css') }}" rel="stylesheet" media="screen">{%- endblock -%}{%- endblock -%}
+{%- block body -%}
+	{%- if application -%}
+		<div class="post clearfix">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="page-header">
+						<h2>{{ application['title'] | safe }}</h2>
+						<p><span class="icon-time">&nbsp;</span><i>Applied on {{ application['date'] |formatdate }} by {{ application['applicant'] }}, {{ application['email'] }}</i></p>
+
+					</div>
+					<label class="control-label" >Application content:</label>
+					<div class="content article">
+
+						{{ application['body']|markdown }}
+
+					</div>
+				<hr style="clear: both;">
+				<label class="control-label" >Molecule's information:</label>
+				<div>
+					The user {{ application['applicant'] }} applied for the molecule of {{ molecule['title'] }}
+					<p>{{ molecule['image'] |safe }}</p>
+					<div>file for download</div>
+					<li><a href="{{ url_for('download_zip', title=molecule['title']) }}">{{ molecule['title']+'.zip' }}</a></li>
+				</div>
+
+				<hr style="clear: both;">
+				{% if not application['status'] %}
+				<a href="{{ url_for('accept', permalink=application['permalink']) }}" class="response btn btn-primary">Accept</a>
+				<a href="{{ url_for('decline', permalink=application['permalink']) }}" class="response btn btn-primary">Decline</a>
+
+				{% elif application['status']=='Accepted' %}
+				This application is already been accepted.
+				{% elif application['status']=='Declined' %}
+				This application is already been declined.
+
+				{% endif %}
+
+
+				</div>
+			</div>
+		</div>
+	{%- endif -%}
+	{%- include 'sidebar.html' -%}
+{%- endblock -%}
+{%- block additional_js -%}<script src="{{ url_for('static', filename='js/lightbox-2.6.min.js') }}"></script>{%- endblock -%}

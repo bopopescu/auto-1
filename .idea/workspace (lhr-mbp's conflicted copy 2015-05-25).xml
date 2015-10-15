@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="238c92be-0eba-4387-a573-2f973c04134a" name="Default" comment="temp node">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/cga.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/cgapool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/conformer/conformer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/db/conformermongo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/bin/fake90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/metacalc/labqm/gaussian.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/test/new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/metacalc/labqm/refgaussian.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labkit/labkit/db/refmongo.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/example_c/ga.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/flaskr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/flaskr_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/static/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/templates/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/flaskr/templates/show_entries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/2DHB.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/I3.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/LICENSE-GPL3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/LICENSE-LGPL3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/embedding-examplesEN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/embedding-examplesJA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/flaskr.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/flaskr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/js/GLmol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/js/Three49custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/js/jquery-1.7.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/labwebapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/2DHB.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/I3.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/LICENSE-GPL3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/LICENSE-LGPL3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/embedding-examplesEN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/embedding-examplesJA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/js/GLmol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/js/Three49custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/js/jquery-1.7.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/static/viewer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/templates/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/templates/pull_entry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/templates/push_entry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/templates/show_entries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/templates/show_entries_bak.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp-old/viewer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/Procfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/app.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/extract_docx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/helper_functions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/mdx_code_multiline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/mdx_github_gists.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/mdx_quote.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/mdx_strike.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/molecule.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/pages/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/pages/1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/pagination.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/post.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/runtime.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/smb_90.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/bowager-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/core-component-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/core-component-page/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/github-gist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/github-gist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/platform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/platform/platform.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/polymer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/polymer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/bower_components/polymer/polymer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/css/lightbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/css/mdmagick.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/img/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/img/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/img/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/a-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/lightbox-2.6.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/mdmagick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/static/js/showdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/Application_is_successful.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/add_user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/edit_post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/edit_user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/handle_application.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/manage_applications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/molecule_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/new_application.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/new_post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/posts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/settings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/show_applications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/single_molecule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/single_post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/templates/users.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/web.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/labwebapp/web.wsgi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/src/conformer/labconformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labkit/src/poolcalc/labga/labga.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labaga/aga.sh" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/aga/aga.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labaga/labaga.py" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/aga/labaga.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdb/labmongo.py" afterPath="$PROJECT_DIR$/labkit/labkit/db/cgamongo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdb/mongotest.py" afterPath="$PROJECT_DIR$/labkit/labkit/db/mongotest.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/client" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/client" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/m.calc" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/m.calc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/m.cron" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/m.cron" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/m.crondeamon" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/m.crondeamon" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/m.kill" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/m.kill" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/m.mainserver" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/m.mainserver" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/m.nodekill" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/m.nodekill" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/m.sum" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/m.sum" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/mainlist" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/mainlist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/metacalc" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/metacalc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/pscpu" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/pscpu" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labdist/server" afterPath="$PROJECT_DIR$/labkit/labkit/cluster/server" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labfit/labfb.py" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/fit/forcebalancefit.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labga/test.py" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labmm/labpdb.py" afterPath="$PROJECT_DIR$/labkit/labkit/metacalc/labmm/labpdb.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labmm/labrungx.py" afterPath="$PROJECT_DIR$/labkit/labkit/metacalc/labmm/labrungx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labmm/labrunlammps.py" afterPath="$PROJECT_DIR$/labkit/labkit/metacalc/labmm/labrunlammps.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labpub/labkitpath.py" afterPath="$PROJECT_DIR$/labkit/labkit/conformer/labkitpath.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/.Rhistory" afterPath="$PROJECT_DIR$/labkit/bin/.Rhistory" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/add" afterPath="$PROJECT_DIR$/labkit/bin/add" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/addchk" afterPath="$PROJECT_DIR$/labkit/bin/addchk" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/babelunix" afterPath="$PROJECT_DIR$/labkit/bin/babelunix" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/batsub" afterPath="$PROJECT_DIR$/labkit/bin/batsub" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/calc.sh" afterPath="$PROJECT_DIR$/labkit/bin/calc.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/client" afterPath="$PROJECT_DIR$/labkit/bin/client" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/cnum" afterPath="$PROJECT_DIR$/labkit/bin/cnum" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/collectf" afterPath="$PROJECT_DIR$/labkit/bin/collectf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/collectf2" afterPath="$PROJECT_DIR$/labkit/bin/collectf2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/collectff" afterPath="$PROJECT_DIR$/labkit/bin/collectff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/da.sh" afterPath="$PROJECT_DIR$/labkit/bin/da.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/del_all_qtask" afterPath="$PROJECT_DIR$/labkit/bin/del_all_qtask" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/calc.sh-2" afterPath="$PROJECT_DIR$/labkit/bin/detached/calc.sh-2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/calc.sh-old" afterPath="$PROJECT_DIR$/labkit/bin/detached/calc.sh-old" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/cn" afterPath="$PROJECT_DIR$/labkit/bin/detached/cn" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/get_gussian_usrs" afterPath="$PROJECT_DIR$/labkit/bin/detached/get_gussian_usrs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/gromacs-install" afterPath="$PROJECT_DIR$/labkit/bin/detached/gromacs-install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/metacalc-2" afterPath="$PROJECT_DIR$/labkit/bin/detached/metacalc-2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/metacalc-old" afterPath="$PROJECT_DIR$/labkit/bin/detached/metacalc-old" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/mv_nimag_bak" afterPath="$PROJECT_DIR$/labkit/bin/detached/mv_nimag_bak" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/detached/testnode" afterPath="$PROJECT_DIR$/labkit/bin/detached/testnode" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/dmv" afterPath="$PROJECT_DIR$/labkit/bin/dmv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/energy-cut" afterPath="$PROJECT_DIR$/labkit/bin/energy-cut" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/err-txt" afterPath="$PROJECT_DIR$/labkit/bin/err-txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findhf" afterPath="$PROJECT_DIR$/labkit/bin/findhf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findhf2" afterPath="$PROJECT_DIR$/labkit/bin/findhf2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findhf22" afterPath="$PROJECT_DIR$/labkit/bin/findhf22" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findhf2_collect" afterPath="$PROJECT_DIR$/labkit/bin/findhf2_collect" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findhf3" afterPath="$PROJECT_DIR$/labkit/bin/findhf3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findhf4" afterPath="$PROJECT_DIR$/labkit/bin/findhf4" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findhf_new" afterPath="$PROJECT_DIR$/labkit/bin/findhf_new" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findimag" afterPath="$PROJECT_DIR$/labkit/bin/findimag" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/findkey" afterPath="$PROJECT_DIR$/labkit/bin/findkey" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/gb" afterPath="$PROJECT_DIR$/labkit/bin/gb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/generate" afterPath="$PROJECT_DIR$/labkit/bin/generate" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/getbinpath" afterPath="$PROJECT_DIR$/labkit/bin/getbinpath" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/getxyz" afterPath="$PROJECT_DIR$/labkit/bin/getxyz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/gm" afterPath="$PROJECT_DIR$/labkit/bin/gm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/hftest" afterPath="$PROJECT_DIR$/labkit/bin/hftest" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/killmain" afterPath="$PROJECT_DIR$/labkit/bin/killmain" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/labgxrun" afterPath="$PROJECT_DIR$/labkit/bin/labgxrun" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/labsub" afterPath="$PROJECT_DIR$/labkit/bin/labsub" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/labsub_lab" afterPath="$PROJECT_DIR$/labkit/bin/labsub_lab" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/labsub_super" afterPath="$PROJECT_DIR$/labkit/bin/labsub_super" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/linesort" afterPath="$PROJECT_DIR$/labkit/bin/linesort" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/lld" afterPath="$PROJECT_DIR$/labkit/bin/lld" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/load_config.rb" afterPath="$PROJECT_DIR$/labkit/bin/load_config.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/lsd" afterPath="$PROJECT_DIR$/labkit/bin/lsd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/m.nodekill" afterPath="$PROJECT_DIR$/labkit/bin/m.nodekill" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mchangename" afterPath="$PROJECT_DIR$/labkit/bin/mchangename" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mdemo" afterPath="$PROJECT_DIR$/labkit/bin/mdemo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/merge" afterPath="$PROJECT_DIR$/labkit/bin/merge" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/metacalc" afterPath="$PROJECT_DIR$/labkit/bin/metacalc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/metacalc_err" afterPath="$PROJECT_DIR$/labkit/bin/metacalc_err" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/metacalc_txt" afterPath="$PROJECT_DIR$/labkit/bin/metacalc_txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mfreqchk" afterPath="$PROJECT_DIR$/labkit/bin/mfreqchk" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mfreqinfo" afterPath="$PROJECT_DIR$/labkit/bin/mfreqinfo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mjoin" afterPath="$PROJECT_DIR$/labkit/bin/mjoin" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mmv" afterPath="$PROJECT_DIR$/labkit/bin/mmv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mout-freq" afterPath="$PROJECT_DIR$/labkit/bin/mout-freq" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mout-txt" afterPath="$PROJECT_DIR$/labkit/bin/mout-txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mout-xyz" afterPath="$PROJECT_DIR$/labkit/bin/mout-xyz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/moutinfo" afterPath="$PROJECT_DIR$/labkit/bin/moutinfo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mrecompute" afterPath="$PROJECT_DIR$/labkit/bin/mrecompute" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mrename" afterPath="$PROJECT_DIR$/labkit/bin/mrename" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mresort" afterPath="$PROJECT_DIR$/labkit/bin/mresort" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mtxt-xyz" afterPath="$PROJECT_DIR$/labkit/bin/mtxt-xyz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mv_low" afterPath="$PROJECT_DIR$/labkit/bin/mv_low" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mv_nimag" afterPath="$PROJECT_DIR$/labkit/bin/mv_nimag" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mxyz-txt" afterPath="$PROJECT_DIR$/labkit/bin/mxyz-txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mykill" afterPath="$PROJECT_DIR$/labkit/bin/mykill" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/mytest" afterPath="$PROJECT_DIR$/labkit/bin/mytest" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/next" afterPath="$PROJECT_DIR$/labkit/bin/next" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/node.gen" afterPath="$PROJECT_DIR$/labkit/bin/node.gen" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/nodekill" afterPath="$PROJECT_DIR$/labkit/bin/nodekill" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/out-txt" afterPath="$PROJECT_DIR$/labkit/bin/out-txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/out-xyz" afterPath="$PROJECT_DIR$/labkit/bin/out-xyz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/outinfo" afterPath="$PROJECT_DIR$/labkit/bin/outinfo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/overtime_hfopt" afterPath="$PROJECT_DIR$/labkit/bin/overtime_hfopt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/overtime_pm3" afterPath="$PROJECT_DIR$/labkit/bin/overtime_pm3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/pdb-out" afterPath="$PROJECT_DIR$/labkit/bin/pdb-out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/pdb-out.py" afterPath="$PROJECT_DIR$/labkit/bin/pdb-out.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/pid_tree.py" afterPath="$PROJECT_DIR$/labkit/bin/pid_tree.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/pscpu" afterPath="$PROJECT_DIR$/labkit/bin/pscpu" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/pscpu-node" afterPath="$PROJECT_DIR$/labkit/bin/pscpu-node" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/pscpuall-single" afterPath="$PROJECT_DIR$/labkit/bin/pscpuall-single" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/psusr" afterPath="$PROJECT_DIR$/labkit/bin/psusr" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/psusr91" afterPath="$PROJECT_DIR$/labkit/bin/psusr91" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/qdel_byqname" afterPath="$PROJECT_DIR$/labkit/bin/qdel_byqname" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/recompute" afterPath="$PROJECT_DIR$/labkit/bin/recompute" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/record" afterPath="$PROJECT_DIR$/labkit/bin/record" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/rename_xlsx.py" afterPath="$PROJECT_DIR$/labkit/bin/rename_xlsx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/run" afterPath="$PROJECT_DIR$/labkit/bin/run" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/serv" afterPath="$PROJECT_DIR$/labkit/bin/serv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/task.gtmp" afterPath="$PROJECT_DIR$/labkit/bin/task.gtmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/tempeture_distribution.R" afterPath="$PROJECT_DIR$/labkit/bin/tempeture_distribution.R" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/tmux" afterPath="$PROJECT_DIR$/labkit/bin/tmux" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/txt-xyz" afterPath="$PROJECT_DIR$/labkit/bin/txt-xyz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/wlt.py" afterPath="$PROJECT_DIR$/labkit/bin/wlt.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/xvg-cut" afterPath="$PROJECT_DIR$/labkit/bin/xvg-cut" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labtools/xyz-txt" afterPath="$PROJECT_DIR$/labkit/bin/xyz-txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/application.py" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/application.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labkit/labwebapp/config.py" afterPath="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labkit/labkit_interface.py" afterPath="$PROJECT_DIR$/labkit/labkit_interface.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubkit/mypub.py" afterPath="$PROJECT_DIR$/pubkit/mypub.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="lhrkits.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lhrkits$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1432317437569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/test2" />
+    <SUITE FILE_PATH="coverage/lhrkits$labpub.coverage" NAME="labpub Coverage Results" MODIFIED="1419343054861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labpub" />
+    <SUITE FILE_PATH="coverage/lhrkits$random_pick.coverage" NAME="random_pick Coverage Results" MODIFIED="1432474126155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pubkit" />
+    <SUITE FILE_PATH="coverage/lhrkits$flaskr.coverage" NAME="flaskr Coverage Results" MODIFIED="1419356935215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
+    <SUITE FILE_PATH="coverage/lhrkits$gaussianmongo.coverage" NAME="gaussianmongo Coverage Results" MODIFIED="1432444713632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/db" />
+    <SUITE FILE_PATH="coverage/lhrkits$web__1_.coverage" NAME="web (1) Coverage Results" MODIFIED="1431423389264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/src/website" />
+    <SUITE FILE_PATH="coverage/lhrkits$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1421025407215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/test" />
+    <SUITE FILE_PATH="coverage/lhrkits$labconformer.coverage" NAME="labconformer Coverage Results" MODIFIED="1420652025238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labpub" />
+    <SUITE FILE_PATH="coverage/lhrkits$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1432317218686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/test" />
+    <SUITE FILE_PATH="coverage/lhrkits$website.coverage" NAME="website Coverage Results" MODIFIED="1432286224350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/website" />
+    <SUITE FILE_PATH="coverage/lhrkits$ramachandran_biopython.coverage" NAME="ramachandran_biopython Coverage Results" MODIFIED="1432533303223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/test" />
+    <SUITE FILE_PATH="coverage/lhrkits$web.coverage" NAME="web Coverage Results" MODIFIED="1430319005198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
+    <SUITE FILE_PATH="coverage/lhrkits$flaskr__1_.coverage" NAME="flaskr (1) Coverage Results" MODIFIED="1419357297800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/flaskr" />
+    <SUITE FILE_PATH="coverage/lhrkits$nd.coverage" NAME="nd Coverage Results" MODIFIED="1421042036976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/#tmp" />
+    <SUITE FILE_PATH="coverage/lhrkits$labmongo.coverage" NAME="labmongo Coverage Results" MODIFIED="1432443588772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/db" />
+    <SUITE FILE_PATH="coverage/lhrkits$test.coverage" NAME="test Coverage Results" MODIFIED="1429779906829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
+    <SUITE FILE_PATH="coverage/lhrkits$labwebapp.coverage" NAME="labwebapp Coverage Results" MODIFIED="1429261118413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labwebapp" />
+    <SUITE FILE_PATH="coverage/lhrkits$new.coverage" NAME="new Coverage Results" MODIFIED="1432473201514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit" />
+    <SUITE FILE_PATH="coverage/lhrkits$aga.coverage" NAME="aga Coverage Results" MODIFIED="1419292192583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labaga" />
+    <SUITE FILE_PATH="coverage/lhrkits$labkit_interface.coverage" NAME="labkit_interface Coverage Results" MODIFIED="1419344022621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit" />
+    <SUITE FILE_PATH="coverage/lhrkits$new__1_.coverage" NAME="new (1) Coverage Results" MODIFIED="1432316782827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/test" />
+    <SUITE FILE_PATH="coverage/lhrkits$fake90.coverage" NAME="fake90 Coverage Results" MODIFIED="1432454168655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/bin" />
+    <SUITE FILE_PATH="coverage/lhrkits$mongotest.coverage" NAME="mongotest Coverage Results" MODIFIED="1419294773345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labdb" />
+    <SUITE FILE_PATH="coverage/lhrkits$labrungx.coverage" NAME="labrungx Coverage Results" MODIFIED="1419337285642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labmm" />
+    <SUITE FILE_PATH="coverage/lhrkits$ramachandran_mmtk.coverage" NAME="ramachandran_mmtk Coverage Results" MODIFIED="1432484549001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/test" />
+    <SUITE FILE_PATH="coverage/lhrkits$conformer.coverage" NAME="conformer Coverage Results" MODIFIED="1432389871893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/conformer" />
+    <SUITE FILE_PATH="coverage/lhrkits$test_svm.coverage" NAME="test_svm Coverage Results" MODIFIED="1432539425604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/tests" />
+    <SUITE FILE_PATH="coverage/lhrkits$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1430386908225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/src" />
+    <SUITE FILE_PATH="coverage/lhrkits$cga.coverage" NAME="cga Coverage Results" MODIFIED="1432483689131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/poolcalc/ga" />
+    <SUITE FILE_PATH="coverage/lhrkits$gaussian.coverage" NAME="gaussian Coverage Results" MODIFIED="1432494470791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labkit/metacalc/labqm" />
+    <SUITE FILE_PATH="coverage/lhrkits$labrunlammps.coverage" NAME="labrunlammps Coverage Results" MODIFIED="1419334045130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labkit/labmm" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_TOOLBAR" value="true" />
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="lhrkits" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/json/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2242" max-vertical-offset="6052">
+              <caret line="192" column="7" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/numpy/random/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20355412" vertical-offset="741" max-vertical-offset="2142">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/smb/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/smb/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="42806">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/smb/utils/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="9659" max-vertical-offset="12631">
+              <caret line="586" column="19" selection-start-line="586" selection-start-column="6" selection-end-line="586" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bounds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/bounds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1547">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="12818">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4448" max-vertical-offset="7735">
+              <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/new_application.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/handle_application.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/single_molecule.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/mysendmail.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/nav.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/show_applications.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/application.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/smb_90.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/molecule.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/settings.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/settings.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/web.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/config.py" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/manage_applications.html" />
+        <option value="$PROJECT_DIR$/labkit/labwebapp/templates/molecule_list.html" />
+        <option value="$PROJECT_DIR$/labkit/readme.md" />
+        <option value="$PROJECT_DIR$/labkit/src/test.py" />
+        <option value="$PROJECT_DIR$/labkit/src/test2/__init__.py" />
+        <option value="$PROJECT_DIR$/labkit/src/website/web.py" />
+        <option value="$PROJECT_DIR$/labkit/src/new.py" />
+        <option value="$PROJECT_DIR$/labkit/src/test/new.py" />
+        <option value="$PROJECT_DIR$/labkit/src/test2/new.py" />
+        <option value="$PROJECT_DIR$/labkit/src/test/__init__.py" />
+        <option value="$PROJECT_DIR$/labkit/src/website/website.py" />
+        <option value="$PROJECT_DIR$/labkit/src/website/settings.py" />
+        <option value="$PROJECT_DIR$/labkit/src/website/application.py" />
+        <option value="$PROJECT_DIR$/labkit/src/website/molecule.py" />
+        <option value="$PROJECT_DIR$/labkit/src/website/config.py" />
+        <option value="$PROJECT_DIR$/labkit/src/__init__.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/__init__.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/poolcalc/aga/labaga.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/labga.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/cgapool.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/config.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/test/new.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/conformer/__init__.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/test/__init__.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/test2/__init__.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/metacalc/gaussian.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/test2/new.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/conformer/conformer.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/db/labmongo.py" />
+        <option value="$PROJECT_DIR$/pubkit/mypub.py" />
+        <option value="$PROJECT_DIR$/labkit/bin/fake90" />
+        <option value="$PROJECT_DIR$/labkit/labkit/new.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/cga.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/db/gaussianmongo.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/db/conformermongo.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/db/cgamongo.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/metacalc/labqm/gaussian.py" />
+        <option value="$PROJECT_DIR$/labkit/labkit/test/ramachandran_biopython.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="643" />
+    <option name="y" value="23" />
+    <option name="width" value="1277" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.8 (~/anaconda/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.8 (~/anaconda/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.8 (~/anaconda/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numpy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.8 (~/anaconda/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numpy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="random" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.8 (~/anaconda/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python2.7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metacalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metacalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labqm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metacalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhrkits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/labkit/labwebapp/env/bin/python" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/labkit/bin" />
+      <recent name="$PROJECT_DIR$/labkit/labkit/metacalc/labqm" />
+      <recent name="$PROJECT_DIR$/labkit/labkit/db" />
+      <recent name="$PROJECT_DIR$/labkit/labkit/poolcalc/ga" />
+      <recent name="$PROJECT_DIR$/labkit/labkit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/labkit/labkit/conformer" />
+      <recent name="$PROJECT_DIR$/labkit/labkit/conformer/new" />
+      <recent name="$PROJECT_DIR$/labkit/labkit/metacalc/labqm" />
+      <recent name="$PROJECT_DIR$/labkit/labkit/metacalc" />
+      <recent name="$PROJECT_DIR$/labkit/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_svm">
+    <configuration default="false" name="gaussian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="ssh://lhr@sfront:22/public/lhr/anaconda/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labkit/metacalc/labqm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labkit/metacalc/labqm/gaussian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cga" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labkit/poolcalc/ga" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labkit/poolcalc/ga/cga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ramachandran_biopython" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labkit/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labkit/test/ramachandran_biopython.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ramachandran_mmtk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labkit/labkit/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labkit/labkit/test/ramachandran_mmtk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/tests/test_svm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="lhrkits" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lhrkits" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.gaussian" />
+      <item index="1" class="java.lang.String" itemvalue="Python.cga" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ramachandran_biopython" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ramachandran_mmtk" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_svm" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_svm" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ramachandran_biopython" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gaussian" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ramachandran_mmtk" />
+        <item index="4" class="java.lang.String" itemvalue="Python.cga" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="238c92be-0eba-4387-a573-2f973c04134a" name="Default" comment="" />
+      <created>1419291822828</created>
+      <option name="number" value="Default" />
+      <updated>1419291822828</updated>
+      <workItem from="1419291829122" duration="558000" />
+      <workItem from="1419292477409" duration="7529000" />
+      <workItem from="1419337203981" duration="37360000" />
+      <workItem from="1420461487072" duration="3715000" />
+      <workItem from="1420543082729" duration="1311000" />
+      <workItem from="1420729563324" duration="685000" />
+      <workItem from="1420881135434" duration="433000" />
+      <workItem from="1420885799799" duration="2187000" />
+      <workItem from="1421033882914" duration="12515000" />
+      <workItem from="1421091739894" duration="299000" />
+      <workItem from="1421146917185" duration="78000" />
+      <workItem from="1421147008504" duration="1586000" />
+      <workItem from="1421461614031" duration="1843000" />
+      <workItem from="1421479960284" duration="2090000" />
+      <workItem from="1421544029197" duration="420000" />
+      <workItem from="1421641468223" duration="16000" />
+      <workItem from="1421659784880" duration="41000" />
+      <workItem from="1422022379186" duration="126000" />
+      <workItem from="1422022552391" duration="110000" />
+      <workItem from="1422022688376" duration="814000" />
+      <workItem from="1422024110264" duration="661000" />
+      <workItem from="1422088044448" duration="664000" />
+      <workItem from="1422360455300" duration="36000" />
+      <workItem from="1422720257208" duration="532000" />
+      <workItem from="1423116931560" duration="14000" />
+      <workItem from="1423117182916" duration="139000" />
+      <workItem from="1423227077538" duration="115000" />
+      <workItem from="1426936799799" duration="7129000" />
+      <workItem from="1427101986039" duration="2281000" />
+      <workItem from="1427105142476" duration="92000" />
+      <workItem from="1427105247694" duration="196000" />
+      <workItem from="1427105517875" duration="411000" />
+      <workItem from="1427106753414" duration="3145000" />
+      <workItem from="1427616553469" duration="2356000" />
+      <workItem from="1427941743069" duration="26799000" />
+      <workItem from="1428644126545" duration="2422000" />
+      <workItem from="1429016133509" duration="73911000" />
+      <workItem from="1429274273851" duration="8663000" />
+      <workItem from="1429501274679" duration="3568000" />
+      <workItem from="1429515393678" duration="315000" />
+      <workItem from="1429515724280" duration="25419000" />
+      <workItem from="1429713952124" duration="32320000" />
+      <workItem from="1429858897141" duration="44645000" />
+      <workItem from="1430287242950" duration="14883000" />
+      <workItem from="1430473046786" duration="3689000" />
+      <workItem from="1431328773856" duration="4409000" />
+      <workItem from="1431616760820" duration="891000" />
+      <workItem from="1431807014566" duration="1411000" />
+      <workItem from="1431959404394" duration="61477000" />
+      <workItem from="1432459977374" duration="11763000" />
+      <workItem from="1432478968424" duration="10689000" />
+      <workItem from="1432539835991" duration="3454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="422215000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="643" y="23" width="1277" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32642487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3566334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5233161" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20684735" sideWeight="0.50051814" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13575129" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23724696" sideWeight="0.49948186" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3117409" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="1100" y="165" width="363" height="773" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="255" y="202" width="536" height="451" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36373058" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4041451" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="255" y="202" width="536" height="451" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5233161" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13575129" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23724696" sideWeight="0.49948186" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3117409" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="1100" y="165" width="363" height="773" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36373058" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32642487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4041451" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3566334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20684735" sideWeight="0.50051814" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="temp node" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp node" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/labkit/labkit/website/application.py</url>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="run" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/website/extract_docx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/flask/logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/website/website.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2363" max-vertical-offset="18122">
+          <caret line="163" column="31" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/website/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.653846" vertical-offset="1712" max-vertical-offset="4879">
+          <caret line="117" column="38" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/poolcalc/ga/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubkit/mypub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/metacalc/labmm/labpdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/mongokit/document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="13005">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/db/mongotest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/db/refmongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/bin/rename_xlsx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65314835" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/bin/findhf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1615">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3329776" vertical-offset="38788" max-vertical-offset="40086">
+          <caret line="2300" column="0" selection-start-line="2300" selection-start-column="0" selection-end-line="2300" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubkit/findhf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1615">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/metacalc/labqm/refgaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1258">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/bin/fake90">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubkit/random_pick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/m.nodekill">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/m.sum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/pscpu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/metacalc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/m.mainserver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/client">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/m.calc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="748">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/server">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="2380">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/m.cron">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="459">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/cluster/m.crondeamon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/mongokit/collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="502" max-vertical-offset="2346">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/test/ramachandran_mmtk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/poolcalc/ga/cga.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="689" max-vertical-offset="3417">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/mongokit/schema_document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6675" max-vertical-offset="16337">
+          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/db/cgamongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="2907">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/db/conformermongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1205" max-vertical-offset="3774">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/metacalc/labqm/gaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1919" max-vertical-offset="2873">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/conformer/conformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2261">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labkit/labkit/test/ramachandran_biopython.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1428">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/Bio/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6579">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/tests/test_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8908" max-vertical-offset="11441">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/bounds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1547">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9659" max-vertical-offset="12631">
+          <caret line="586" column="19" selection-start-line="586" selection-start-column="6" selection-end-line="586" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="12818">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4448" max-vertical-offset="7735">
+          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/svm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/smb/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/smb/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="42806">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/smb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2242" max-vertical-offset="6052">
+          <caret line="192" column="7" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/numpy/random/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20355412" vertical-offset="741" max-vertical-offset="2142">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7.8 (~/anaconda/bin/python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lhrkits</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Remote Python 2.7.7 (ssh://lhr@sfront:22/public/lhr/anaconda/bin/python)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

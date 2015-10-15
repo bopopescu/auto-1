@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author  : lhr (airhenry@gmail.com)
+# @Link    : http://about.me/air.henry
+
+
+
+
+import os, re,sys
+
+
+def format_to_xyz(filename):
+    filename = str(filename)
+    filename = filename.replace('.xyz', '')
+    filename = filename.replace('.out', '')
+    filename = filename + '.xyz'
+    return filename
+
+
+def main():
+    # txt_file_name=sys.argv[1]
+    # out_file_name=sys.argv[2]
+    # txt_file=open(txt_file_name)
+    # out_file=open(out_file_name,'w')
+    out_tempelete=open('/Users/lhr/lhrkits/labkit/test/1.out')
+    # out_file.write(out_tempelete.read())
+    sys.stdout.write(out_tempelete.read())
+    # out_file.close()
+
+
+
+
+if __name__ == '__main__':
+    main()

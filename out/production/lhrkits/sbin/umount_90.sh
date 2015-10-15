@@ -1,0 +1,1 @@
+sudo umount  /public/lhr/lhrkits/labkit/labwebapp/databank

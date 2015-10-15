@@ -1,0 +1,13 @@
+# translate the outfile to xyzfile
+
+s=`grep -n "Standard orientation" $1|tail -1|cut -d: -f1`
+r=`grep -n "Rotational constants" $1|tail -1|cut -d: -f1`
+size=$((r-s-6))
+gout=$1
+gxyz=$2
+
+echo $size>$gxyz
+echo "Generate by out-xyz">>$gxyz
+getxyz $gout>>$gxyz
+
+/Users/lhr/lhrkits/labkit//bin/out2xyz /var/folders/4z/5s255jgx2ln21lq24j5p0f2r0000gp/T/tmpUwpxxz /var/folders/4z/5s255jgx2ln21lq24j5p0f2r0000gp/T/tmpO1WoqN
