@@ -1,0 +1,7 @@
+#!/bin/sh
+cd $1
+echo > tmp
+ls|grep out|while read i;do cat $i|grep time>>tmp;done
+#cat tmp
+awk 'BEGIN{d=0.0;h=0.0;m=0.0;s=0.0;sum=0.0}{d=d+$4;h=h+$6;m=m+$8;s=s+$10;sum=sum+$4*24+$6+$8/60+$10/3600}END{print sum}' tmp
+#awk 'BEGIN{d=0.0;h=0.0;m=0.0;s=0.0}{print $4,$6,$8,$10}END{print d,h,m,s}' tmp

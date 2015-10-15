@@ -1,0 +1,17 @@
+#!/bin/sh
+node_av=~/node_av
+exec 3<>~/node_av
+while read node <&3;do
+
+    rsh $node "echo $node  ;echo '/public/bin/m.cron'|at now" </dev/null 
+
+done
+
+
+
+
+
+
+
+
+
