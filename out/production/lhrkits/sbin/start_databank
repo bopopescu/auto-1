@@ -1,5 +1,0 @@
-#!/bin/sh
-
-killall python
-cd /public/lhr/lhrkits/labkit/labwebapp
-gunicorn -b 210.45.66.91:8000 web:app

@@ -1,4 +1,0 @@
-#!/bin/sh
-killall /bin/sh
-killall rsh
-killall /usr/bin/python

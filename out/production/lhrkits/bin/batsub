@@ -1,9 +1,0 @@
-#!/bin/sh
-
-
-txtnum=`cnum|head -1 |cut -d' ' -f2`
-groupnum=50
-pertasklistnum=$((txtnum/groupnum))
-echo $pertasklistnum
-
-i

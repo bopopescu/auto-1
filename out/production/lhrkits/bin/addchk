@@ -1,1 +1,0 @@
-ls|while read i;do sed  -i "1i\%chk=\\${i%.*}.chk" $i ;done

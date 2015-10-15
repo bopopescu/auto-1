@@ -1,2 +1,0 @@
-for DIR in cggg*;do cd $DIR;echo $DIR;cnum ;cd ..;done
-

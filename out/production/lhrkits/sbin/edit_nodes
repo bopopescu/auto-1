@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo rmate /var/spool/torque/server_priv/nodes
