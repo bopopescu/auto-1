@@ -1,0 +1,7 @@
+percol
+virtualenvwrapper
+autoenv
+invoke
+autopep8
+isort
+honcho

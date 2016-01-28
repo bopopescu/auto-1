@@ -1,0 +1,25 @@
+#!/usr/bin/env zsh
+# teamocil
+
+alias percol='percol --result-bottom-up --prompt-bottom'
+
+
+if [[ $1 == "" ]]; then
+    PERCOL="percol"
+else
+    PERCOL="percol --query $1"
+fi
+
+# fasd -f|gtac |awk '{print $2}'|eval $PERCOL|xargs -I% open %
+
+
+projects=`ls ~/.teamocil|while read i;do echo ${i%.yml};done`
+# echo $projects
+descriptions=`ls ~/.teamocil|while read i;do sed -n '/name/p' ~/.teamocil/$i;done`
+# echo $descriptions
+sessions=$(paste <(echo $projects) <(echo $descriptions))
+# echo $sessions
+ans=$(echo $sessions|eval $PERCOL)
+project=$(echo $ans|cut -f1)
+# echo $project
+teamocil $project

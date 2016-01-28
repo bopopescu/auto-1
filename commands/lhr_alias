@@ -1,0 +1,32 @@
+#/bin/sh
+lhrkits=$HOME/lhrkits
+
+alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+
+alias v='vagrant'
+alias git='hub'
+# alias t='tmux attach'
+
+alias t='teamocil'
+
+alias pubrc='cd $yadr/pubrc'
+alias pubkit='cd $lhrkits/pubkit'
+alias mac='cd $lhrkits/prikit/mac'
+alias linux='cd $lhrkits/prikit/linux'
+alias remote='cd $lhrkits/prikit/remote'
+alias labkit='cd $lhrkits/labkit'
+alias prikit='cd $lhrkits/prikit'
+
+alias math='/Applications/Mathematica.app/Contents/MacOS/MathKernel'
+alias E='/usr/local/Cellar/emacs-mac/emacs-24.4-mac-5.3/Emacs.app/Contents/MacOS/Emacs'
+alias e='emacsclient '
+
+
+
+
+# OS X
+alias qlf='qlmanage -p '
+
+#alias mplayerx='open -a /Applications/MPlayerX.app --args -name'
+#alias gs=gs
+alias gfortran-4.2=gfortran

@@ -1,0 +1,29 @@
+#!/usr/bin/env zsh
+# list all
+alias percol='percol --result-bottom-up --prompt-bottom'
+
+if [[ $1 == "" ]]; then
+    PERCOL=percol
+else
+    PERCOL="percol --query $1"
+fi
+
+invokers=`ls $AUTO/invokers`
+descriptions=`echo $invokers|xargs -I% sed -n '2p' $AUTO/invokers/%`
+# 上面这句是bash不兼容的, 数组问题.
+
+# funcs=$(for i in (d m); do echo $i;done)
+funcs="\nd\nm\nmt\n^P"
+fdesc="\n# cd to recent folder\n# tmux\n# tmux attach\n# list my commands\n"
+
+
+
+invokers=`echo $invokers  $funcs`
+descriptions=`echo $descriptions $fdesc`
+
+
+ans=`paste <(echo $invokers) <(echo $descriptions)|eval $PERCOL`
+run=$(awk '{print $1}' <(echo $ans))
+eval $run
+
+# eval $PERCOL|xargs -I% sh %

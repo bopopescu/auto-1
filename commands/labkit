@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# PBR Generated from u'console_scripts'
+# python project manage(lein python) invoker
+import sys
+
+from labkit.cmd.cli import cli
+
+
+if __name__ == "__main__":
+    sys.exit(cli())

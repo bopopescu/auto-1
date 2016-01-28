@@ -1,0 +1,44 @@
+---
+# file: tasks/use-yum.yml
+#
+# Configure nginx from YUM repository.
+#
+# @see http://wiki.nginx.org/Install
+#
+
+#- name: install libselinux-python binary for Ansible to work
+#  yum: name=libselinux-python state=present
+
+
+
+- name: add Nginx official repository for CentOS
+  copy: src=../files/nginx.repo.centos dest=/etc/yum.repos.d/nginx.repo
+  when: ansible_distribution|lower == "centos"
+
+- name: add Nginx official repository for RHEL
+  copy: src=../files/nginx.repo.rhel dest=/etc/yum.repos.d/nginx.repo
+  when: ansible_distribution == "Red Hat Enterprise Linux"
+
+
+
+- name: install Nginx with specific version
+  yum: name={{ item }}  update_cache=yes  state=present
+  with_items: [ "nginx-{{ nginx_version }}*" ]
+  when: nginx_version is defined
+
+- name: install Nginx with default version
+  yum: name={{ item }}  update_cache=yes  state=present
+  with_items: [ "nginx" ]
+  when: nginx_version is not defined
+
+
+
+
+
+- name: set INIT status and start
+  service: name=nginx state=started enabled=yes
+  when: nginx_use_service|bool
+
+- name: set INIT status (SysV style)
+  command: /sbin/chkconfig nginx on
+  when: not nginx_use_service|bool

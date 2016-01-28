@@ -1,0 +1,17 @@
+#!/usr/bin/env zsh
+# open files with fasd
+
+alias percol='percol --result-bottom-up --prompt-bottom'
+
+
+function exists { which $1 &> /dev/null }
+local tac
+exists gtac && tac="gtac" || { exists tac && tac="tac" || { tac="tail -r" } }
+# 注意这里用tac来统一gtac和tac
+
+if [[ $1 == "" ]]; then
+    PERCOL="percol"
+else
+    PERCOL="percol --query $1"
+fi
+fasd -f|eval $tac |awk '{print $2}'|eval $PERCOL|xargs -I% open %

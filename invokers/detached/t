@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+# copy templates to this folder
+alias percol='percol --result-bottom-up --prompt-bottom'
+
+if [[ $1 == "" ]]; then
+    PERCOL=percol
+else
+    PERCOL="percol --query $1"
+fi
+ls ~/_env/templates |eval $PERCOL|xargs -I% cp -r ~/_env/templates/% ./

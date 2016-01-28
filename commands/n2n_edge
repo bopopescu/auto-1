@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+
+case $(hostname) in
+  linode )
+    addr=01;;
+  lhr-mbp.local )
+    addr=02;;
+  lhr-mini.local )
+    addr=03;;
+  sfront )
+    addr=05;;
+  cluster_backup )
+    addr=06;;
+esac
+
+/usr/local/bin/edge -a 10.1.1.$addr -c lhr -u nobody -g nobody -k lhrprivaten2nvpn -l 106.185.31.10:82 -m ae:e0:4f:e7:47:$addr

@@ -1,0 +1,11 @@
+- hosts: all
+  sudo: True
+  tasks:
+    - include: 'tasks/main.yml'
+  handlers:
+    - include: 'handlers/main.yml'
+  vars_files:
+    - 'defaults/main.yml'
+
+  vars:
+    #nginx_version: 1.8.0

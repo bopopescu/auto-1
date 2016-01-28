@@ -1,0 +1,63 @@
+---
+# file: tasks/main.yml
+# Top-level installer for Nginx.
+#
+# @see http://wiki.nginx.org/Install
+#
+
+- name: set role variables, if necessary
+  include: set-role-variables.yml
+
+
+- name: install libselinux-python binary for Ansible to work
+  yum: name=libselinux-python state=present
+  when: ansible_pkg_mgr == "yum"
+
+- name: delegate to SELINUX handling subtask, if necessary
+  include: set-selinux.yml
+  when: nginx_in_selinux is defined and nginx_in_selinux == true
+
+
+
+- name: delegate to APT system for installation
+  include: use-apt.yml
+  when: ansible_pkg_mgr == "apt"
+
+- name: delegate to YUM system for installation
+  include: use-yum.yml
+  when: ansible_pkg_mgr == "yum"
+
+
+
+
+- name: rename default/example conf files in /etc/nginx/conf.d/, if any
+  command: mv -f  "/etc/nginx/conf.d/{{ item }}"  "/etc/nginx/conf.d/{{ item }}.bak"
+  with_items:
+    - default.conf
+    - example_ssl.conf
+  ignore_errors: true
+
+
+- name: copy Nginx main config file from role's default, if necessary
+  template: src=../templates/nginx.conf.j2  dest=/etc/nginx/nginx.conf
+  when: nginx_conf_main is not defined
+  notify:
+    - restart nginx
+
+- name: copy Nginx main config file from playbook's, if any
+  template: src={{ playbook_dir }}/{{ nginx_conf_main }}  dest=/etc/nginx/nginx.conf
+  when: nginx_conf_main is defined
+  notify:
+    - restart nginx
+
+- name: copy other Nginx config files from playbook's, if any
+  template: src={{ playbook_dir }}/{{ item.value.src }}  dest=/etc/nginx/conf.d/{{ item.value.dest }}
+  with_dict: nginx_conf_others | default({})
+  notify:
+    - restart nginx
+
+- name: install http://HOST:PORT/nginx_status endpoint, if requested
+  copy: src=../files/nginx_status.conf  dest=/etc/nginx/conf.d/nginx_status.conf
+  when: nginx_status|bool
+  notify:
+    - restart nginx

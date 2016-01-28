@@ -1,0 +1,22 @@
+---
+- hosts: test-front
+  # user: root
+  # Vagrant setup
+  user: vagrant
+  sudo: true
+
+  roles:
+    # - nginx
+    # - uwsgi
+    # - redis
+    # - mongodb
+    # - gitlab
+    - deploy
+
+    # - common
+    # - deploy-user
+    # - ssh
+  # - ruby-1.9.3
+    # - ruby-2.0.0
+    # - nginx-passenger
+    # - app-imgur-display

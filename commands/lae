@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+file=$AUTO/pubkit/lhr_alias
+if [ $HOSTNAME = sfront ]; then
+    rmate $file
+
+else
+    atom $file
+fi
